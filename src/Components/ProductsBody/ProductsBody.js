@@ -6,7 +6,8 @@ import '../ProductsBody/productsBody.css';
 
 
 const initialState = {
-    products: productData
+    products: productData,
+    search: null
   }
   // this.state is our brain 
   class Products extends React.Component {
@@ -48,7 +49,8 @@ const initialState = {
       }
       //filters by price
     const filterPrice = allProducts.filter(product => {
-      return product.price === value
+      if (value)
+      return product.priceRange === value
     })
     // only products that we filter
     this.setState({products: filterPrice})
@@ -78,22 +80,30 @@ const initialState = {
       marginBottom:'10vh'
     }
 
-    const items = productData.filter((productData)=>{
-      if(this.state.search == null)
-          return productData
-      else if(productData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || productData.description.toLowerCase().includes(this.state.search.toLowerCase())){
-          return productData
-      }
-    })
+    // const items = productData.filter((productData)=>{
+    //   if(this.state.search == null)
+    //       return productData
+    //   else if(productData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || productData.description.toLowerCase().includes(this.state.search.toLowerCase())){
+    //       return productData
+    //   }
+    // })
 
-  const mappedProducts = this.state.products.map(product => {
-     
+  var mappedProducts = this.state.products.map(product => {
       return <Product name={product.productname} price={product.price} description={product.description} image={product.image} />
   })
   
 
+  var items = productData.filter((productData)=>{
+          if(this.state.search == null)
+              return productData
+          else if(productData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || productData.description.toLowerCase().includes(this.state.search.toLowerCase())){
+              return productData
+          }
+        })
+        .map(productData=>{
+          return <Product name={productData.productname} price={productData.price} description={productData.description} image={productData.image} />
+        })
 
-  
       return (
 
         
@@ -108,8 +118,9 @@ const initialState = {
       onChange={(e)=>this.searchSpace(e)} />
 
       </div>
-
-        <select onChange={evt => this.filterProducts(evt)} >
+        <div className="filtersContainer">
+        
+        <select className="Selectfilters" onChange={evt => this.filterProducts(evt)} >
                 <option value="All">All Types</option>
                 <option value="PersonalAudio">Headphones</option>
                  <option value="MobilePhones">Smart Phones</option>
@@ -118,16 +129,17 @@ const initialState = {
                  <option value="Laptops">Laptops</option>
         </select> 
   
-        <select onChange={evt => this.filterPrice(evt)} >
+        <select className="Selectfilters" onChange={evt => this.filterPrice(evt)} >
                 <option value="All">All Prices</option>
-                <option value="5.00">$5.00</option>
-                <option value="7.00">$7.00</option>
-                <option value="10.00">$10.00</option>
-                <option value="12.00">$12.00</option>
+                <option value="1.00-149.99">$1.00-$149.99</option>
+                <option value="150.00-499.99">$150.00-$499.99</option>
+                <option value="499.99-999.99">$499.99-$999.99</option>
+                <option value="1000.00-1500.00">$1000.00-$1500.00</option>
         </select> 
+        </div>
   
      <div className= "container">
-     {mappedProducts}
+     {this.state.search != null ? items : mappedProducts}
     </div>   
     </div>
   );
