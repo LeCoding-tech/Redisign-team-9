@@ -1,0 +1,86 @@
+
+
+.bg-light {
+    background: #F4F4F4;
+    color:#333
+}
+
+.bg-primary {
+    background: #F7C08A;
+    color: #333;
+}
+
+.bg-dark {
+background: #333;
+color:#fff
+} 
+
+.clr {
+    clear: both;
+}
+
+/*Padding*/
+.py-1{padding:10px 0;}
+.py-2{padding:20px 0;}
+.py-3{padding:30px 0;}
+
+
+
+
+
+
+/* Features */
+.box {
+    width: 93.0222111122%;
+    padding: 50px;
+    text-align: center;
+    height: 38vh;
+    display: inline-block;
+    background: red ;
+}
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 40px;
+}
+
+
+
+   
+#contact-form .form-group {
+margin-bottom: 20px;
+}
+
+#contact-form label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height:200px;
+}
+
+#contact-form input:focus
+#contact-form textarea:focus {
+    outline:none;
+    border-color: #F7C08A;
+}
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding:20px;
+}
+.footer_droid{
+    height: 30%;
+}
