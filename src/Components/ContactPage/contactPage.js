@@ -4,11 +4,14 @@ import ContactBody from '../ContactBody/ContactBody'
 import Footer from '../Footer/footer'
 
 const ContactPage = () => {
-    <>
+    return (
+<>
     <Navbar />
     <ContactBody />
     <Footer />
     </>
+    )
+    
 }
 
 export default ContactPage;

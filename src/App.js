@@ -1,12 +1,11 @@
 
 import React, { Component } from 'react';
-
-import Products from './Components/ProductsBody/ProductsBody';
+import Routes from './Components/Routes/Router'
 class App extends Component {
     render() {
       return (
         
-        <Products/>
+        <Routes/>
       );
     }
   }
