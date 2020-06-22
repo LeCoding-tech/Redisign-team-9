@@ -1,0 +1,45 @@
+@import url(//db.onlinewebfonts.com/c/03fe5644d1605049951f58ca7961c33f?family=Samsung+Sharp+Sans+Bold);
+
+/* Home Slider Styles */
+.homeSlider {
+    display: flex;
+    justify-content: center;
+}
+
+/* Products Preview Styles */
+.productsSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.sectionBoxes {
+    border-radius: 7%;
+    width: 40vw;
+    height: 60vh;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 2%;
+}
+.sectionBoxes:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.eventsSection h2, .dealsSection h2 {
+    font-size: 2.2rem;
+    font-family: "Samsung Sharp Sans Bold";
+    font-weight: bold;
+    margin: 0
+}
+.eventsSection img, .dealsSection img{
+    width: 100%;
+}
+
+/* Store Categories Styles */
+.storeCategories {
+    display: flex; 
+    border: 2px solid black;
+    width: 90vw;
+    height: 30vh;
+    margin: 5% auto 0 auto;
+}
