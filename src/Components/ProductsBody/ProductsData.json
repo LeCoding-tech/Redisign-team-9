@@ -5,7 +5,8 @@
         "productname": "Galaxy Z Flip",
         "description": "The full screen phone that folds to fit in your pocket with revolutionary flexible glass, a camera made to stand on its own, and a Hideaway Hinge to capture your life from every angle." ,
         "price": "1380.00",
-        "image":"/ProductsImages/GalaxyZFlip.png"
+        "image":"/ProductsImages/GalaxyZFlip.png",
+        "priceRange":"1000.00-1500.00"
     },
     {
         "category":"MobilePhones",
@@ -13,7 +14,8 @@
         "productname": "Galaxy S20 5G",
         "description": "Meet Galaxy S20 5G. With revolutionary 8K Video Snap, 5G connectivity and Space Zoom up to 30x, the way you capture and share your life will never be the same. Shots you never even knew were there are suddenly just a tap away." ,
         "price":"999.99",
-        "image":"/ProductsImages/GalaxyS20.webp"
+        "image":"/ProductsImages/GalaxyS20.webp",
+        "priceRange": "499.99-999.99"
     },
     {
         "category":"MobilePhones",
@@ -21,7 +23,8 @@
         "productname": "Galaxy S10 5G",
         "description": "More screen and more power. Samsung Galaxy S10's premium performance utilizes a pro-grade camera with optical zoom for effortless capture, and ultrasonic fingerprint ID gives improved security, unlocking with a tap of the screen." ,
         "price":"549.99",
-        "image":"/ProductsImages/GalaxyS10.png"
+        "image":"/ProductsImages/GalaxyS10.png",
+        "priceRange": "499.99-999.99"
     },
     {
         "category":"MobilePhones",
@@ -29,7 +32,8 @@
         "productname": "Galaxy Note 10",
         "description": "Intelligent power that learns from how you work and play to optimize battery life. With nearly invisible bezels, Galaxy Note10's cinema-quality display elevates everything you watch." ,
         "price":"950.00",
-        "image":"/ProductsImages/GalaxyNote10.jpg"
+        "image":"/ProductsImages/GalaxyNote10.jpg",
+        "priceRange": "499.99-999.99"
     },
     {   
         "category":"Tablets",
@@ -37,7 +41,8 @@
         "productname": "Galaxy Tab S6 Lite,",
         "description": "Its expansive display and sleek, lightweight build makes it perfect for entertainment on-the-go.The included S Pen lets you effortlessly create, edit, and navigate through your work.",
         "price": "349.99",
-        "image":"/ProductsImages/TabS6Lite.jpeg"
+        "image":"/ProductsImages/TabS6Lite.jpeg",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"Tablets",
@@ -45,7 +50,8 @@
         "productname": "Galaxy Tab S5e 10.5",
         "description": "The incredibly slim Galaxy Tab S5e is perfect for your on-the-go life. Watch your favorite shows and movies come to life on a corner-to-corner 10.5in Super AMOLED display." ,
         "price":"399.99",
-        "image":"/ProductsImages/TabS5e.jpg"
+        "image":"/ProductsImages/TabS5e.jpg",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"Watches",
@@ -53,7 +59,8 @@
         "productname": "Galaxy Watch Active2",
         "description": "Get more out of every mile thanks to built-in pace coaching. Advanced sensors keep your pace to help you achieve your run goals. Comfortably sleek The Galaxy Watch Active2 is light enough to wear anywhere comfortably.",
         "price":"299.99",
-        "image":"/ProductsImages/WatchActive2.jpg"
+        "image":"/ProductsImages/WatchActive2.jpg",
+        "priceRange":"150.00-499.99"
 
     },
     {
@@ -62,7 +69,8 @@
         "productname": "Galaxy Watch",
         "description": "Stylish Watch that Balances your mind and body with sleep cycle tracking, reminders to keep moving, calorie tracking, guided meditation and breathing exercises for stress management." ,
         "price":"259.99",
-        "image":"/ProductsImages/GalaxyWatch.webp"
+        "image":"/ProductsImages/GalaxyWatch.webp",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"Watches",
@@ -70,7 +78,8 @@
         "productname": "Galaxy Fit",
         "description": "All goals. No limits. Look and feel your best with the lightweight yet durable Samsung Galaxy Fit.1" ,
         "price":"99.99",
-        "image":"/ProductsImages/GalaxyFit.webp"
+        "image":"/ProductsImages/GalaxyFit.webp",
+        "priceRange":"1.00-149.99"
     },
     {
         "category":"PersonalAudio",
@@ -78,7 +87,8 @@
         "productname": "Galaxy Buds+",
         "description": "The next generation of Galaxy Buds is here, taking sound quality and control to new harmonic heights. From automatically tuning out unwanted noise¹, to a battery built to go all day², the way you experience sound is about to change." ,
         "price":"149.99",
-        "image":"/ProductsImages/BudsPlus.webp"
+        "image":"/ProductsImages/BudsPlus.webp",
+         "priceRange":"1.00-149.99"
     },
     {
         "category":"PersonalAudio",
@@ -86,7 +96,8 @@
         "productname": "Galaxy Buds+ BTS Edition",
         "description": "Show your BTS pride and listen to your favorite BTS hits with the solid purple Galaxy Buds+ BTS Edition. And the BTS love goes beyond the Buds, including 7 unique BTS photo cards." ,
         "price":"199.99",
-        "image":"/ProductsImages/BudsPlusBts.webp"
+        "image":"/ProductsImages/BudsPlusBts.webp",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"PersonalAudio",
@@ -94,7 +105,8 @@
         "productname": "AKG N700NC M2 Wireless Headphones",
         "description": "Feel every layer of audio just as the artist intended with the luxuriously comfortable AKG N700NC M2 Wireless noise cancelling headphones. Automatically tune out surrounding distractions with adaptive noise cancelling technology and, thanks to a long-lasting battery, immerse yourself in exquisite sound for up to 23 hours." ,
         "price":"299.99",
-        "image":"/ProductsImages/AkgHeadphones.webp"
+        "image":"/ProductsImages/AkgHeadphones.webp",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"PersonalAudio",
@@ -102,7 +114,8 @@
         "productname": "Active InEar Headphones",
         "description": "Winged ear gels for in-ear stability and improved sound Ultra-soft, contoured gels reduce unwanted noise and improve audio quality" ,
         "price":"29.99",
-        "image":"/ProductsImages/RegHeadphones.webp"
+        "image":"/ProductsImages/RegHeadphones.webp",
+        "priceRange":"1.00-149.99"
     },
     {
         "category":"Laptops",
@@ -110,7 +123,8 @@
         "productname": "Galaxy Chromebook",
         "description": "Beautiful performance, even better looks. With its 4K AMOLED touchscreen, powerful processor, 360° convertible design and built-in pen, the new Chromebook's ready to knock any project out of the park." ,
         "price":"299.99",
-        "image":"/ProductsImages/Chromebook.jpg"
+        "image":"/ProductsImages/Chromebook.jpg",
+        "priceRange":"150.00-499.99"
     },
     {
         "category":"Laptops",
@@ -118,7 +132,8 @@
         "productname": "Galaxy Book Flex",
         "description": "Shockingly vivid QLED touchscreens. A 2-in-1 convertible design. Formidable 10th generation Intel® Core™ processors. From creating and knocking out projects to unwinding with a show, the revolutionary Galaxy Book Flex and Galaxy Book Flex ⍺ will defy your expectations and dazzle your senses." ,
         "price":"1349.99",
-        "image":"/ProductsImages/BookFlex.webp"
+        "image":"/ProductsImages/BookFlex.webp",
+        "priceRange":"1000.00-1500.00"
     },
     {
         "category":"Laptops",
@@ -126,6 +141,8 @@
         "productname": "Galaxy Book Ion",
         "description": "The brilliance of QLED is coming to the world of laptops. Introducing the new Samsung Galaxy Book Ion. With up to 22 hours of battery life, a trackpad that wirelessly charges your phone and more, it defies everything you expect from a PC." ,
         "price":"1199.99",
-        "image":"/ProductsImages/BookION.jpeg"
+        "image":"/ProductsImages/BookION.jpeg",
+        "priceRange":"1000.00-1500.00"
+
     }
 ]

@@ -4,11 +4,14 @@ import SignupBody from '../SignupBody/signup'
 import Footer from '../Footer/footer'
 
 const SignupPage = () => {
-    <>
+    return (
+<>
     <Navbar />
     <SignupBody />
     <Footer />
     </>
+    )
+    
 }
 
 export default SignupPage;

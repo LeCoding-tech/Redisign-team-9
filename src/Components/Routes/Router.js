@@ -1,6 +1,6 @@
 import React from "react";
 import HomePage from '../HomePage/homePage';
-import ProductsPage from '../ProductsPage/productsPage';
+import ProductsPage from '../ProductsBody/ProductsBody';
 import ContactPage from '../ContactPage/contactPage';
 import SignupPage from '../SignupPage/signupPage';
 
