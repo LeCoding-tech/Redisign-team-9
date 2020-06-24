@@ -3,17 +3,18 @@
 /* Background image */
 body{
     margin: 0;
+    background: url('Galaxy_background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 html{
     scroll-behavior: smooth;
 }
-.homeBody{
-    position: absolute;
-    background-image: url('Galaxy_background.jpg');
+/* .homeBody{
+    
     width: 100%;
-    background-size: cover;
-    background-position: center;
-}
+    
+} */
 /* Home Slider Styles */
 .slides {
     position: relative;
