@@ -1,16 +1,15 @@
 import React from 'react';
-import './productsBody.css';
-import Product from './ProductCards';
-import productData from './ProductsData.json';
-import '../ProductsBody/productsBody.css';
+import TvAudioCard from '../ProductCards/TvAudioCard';
+import TvAudioData from '../ProductsJsonFiles/TvAudio.json';
+import '../productsBody.css';
 
 
 const initialState = {
-    products: productData,
+    products: TvAudioData,
     search: null
   }
   // this.state is our brain 
-  class Products extends React.Component {
+  class TvAudioPage extends React.Component {
 
     constructor() {
       super()
@@ -66,51 +65,48 @@ const initialState = {
   
   render(){
     const styleInfo = {
-      paddingRight:'10px',
+      paddingLeft:'100px',
     }
 
     const elementStyle ={
-      border:'solid',
+      border:'solid 2px',
       borderRadius:'10px',
       position:'relative',
       left:'10vh',
       height:'3vh',
-      width:'20vh',
+      width:'60vh',
       marginTop:'5vh',
       marginBottom:'10vh'
     }
 
-    // const items = productData.filter((productData)=>{
-    //   if(this.state.search == null)
-    //       return productData
-    //   else if(productData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || productData.description.toLowerCase().includes(this.state.search.toLowerCase())){
-    //       return productData
-    //   }
-    // })
+  
 
   var mappedProducts = this.state.products.map(product => {
-      return <Product name={product.productname} price={product.price} description={product.description} image={product.image} />
+      return <TvAudioCard name={product.productname} price={product.price} description={product.description} image={product.image} />
   })
   
 
-  var items = productData.filter((productData)=>{
+  var items = TvAudioData.filter((TvAudioData)=>{
           if(this.state.search == null)
-              return productData
-          else if(productData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || productData.description.toLowerCase().includes(this.state.search.toLowerCase())){
-              return productData
+              return TvAudioData
+          else if(TvAudioData.productname.toLowerCase().includes(this.state.search.toLowerCase()) || TvAudioData.description.toLowerCase().includes(this.state.search.toLowerCase())){
+              return TvAudioData
           }
         })
-        .map(productData=>{
-          return <Product name={productData.productname} price={productData.price} description={productData.description} image={productData.image} />
+        .map(TvAudioData=>{
+          return <TvAudioCard name={TvAudioData.productname} price={TvAudioData.price} description={TvAudioData.description} image={TvAudioData.image} />
         })
 
       return (
 
-        
+   <div>
+
+     <h1 >TV & Audio</h1>
   
     <div className="ProductsContainer">
-      <h1 >Mobile Products</h1>
       <div>
+
+      <h3>Search within our Galaxy</h3>
      <input 
       type="text" 
       placeholder="Enter item to be searched"
@@ -119,22 +115,19 @@ const initialState = {
 
       </div>
         <div className="filtersContainer">
-        
+        <p>Shop by Category</p>
         <select className="Selectfilters" onChange={evt => this.filterProducts(evt)} >
                 <option value="All">All Types</option>
-                <option value="PersonalAudio">Headphones</option>
-                 <option value="MobilePhones">Smart Phones</option>
-                 <option value="Tablets">Tablets</option>
-                 <option value="Watches">Watches</option>
-                 <option value="Laptops">Laptops</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Audio">Audio</option>
+                <option value="TV">Television's</option>
         </select> 
-  
+        <p>Shop By Price </p>
         <select className="Selectfilters" onChange={evt => this.filterPrice(evt)} >
                 <option value="All">All Prices</option>
-                <option value="1.00-149.99">$1.00-$149.99</option>
-                <option value="150.00-499.99">$150.00-$499.99</option>
-                <option value="499.99-999.99">$499.99-$999.99</option>
-                <option value="1000.00-1500.00">$1000.00-$1500.00</option>
+                <option value="1.00-299.99">$1.00-$299.99</option>
+                <option value="300.00-699.99">$300.00-$699.999</option>
+                <option value="700.00-$4599.99">$700.00-$4599.99</option>
         </select> 
         </div>
   
@@ -142,9 +135,10 @@ const initialState = {
      {this.state.search != null ? items : mappedProducts}
     </div>   
     </div>
+    </div>    
   );
   }
   }
 
   
-  export default Products;
+  export default TvAudioPage;

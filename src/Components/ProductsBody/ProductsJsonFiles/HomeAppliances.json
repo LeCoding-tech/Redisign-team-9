@@ -1,0 +1,146 @@
+[
+    {   
+        "category":"Laundry",
+        "id":1,
+        "productname": "Front Load Washer & Dryer set with Steam in Champagne",
+        "description": "Laundry set includes a 4.5 Cu. ft. Front Load Washer with Steam in Champagne, 7.5 cu. ft. Electric Dryer with Steam Sanitize in Champagne. Energy Star Certified, ADA Compliant, Smart Care and more features." ,
+        "price": "1,258.00",
+        "image":"/HomeAppliancesImages/ChampagneWasher&Dryer.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Laundry",
+        "id":2,
+        "productname": "Bixby enabled Front Load Washer & Dryer set in Black Stainless Steel",
+        "description": "Laundry set includes a Smart Front Load Washer with Super Speed in Black Stainless Steel, Smart Electric Dryer with Steam Sanitize+ in Black Stainless Steel" ,
+        "price": "1,398.00",
+        "image":"/HomeAppliancesImages/BixyWasher&Dryer.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Laundry",
+        "id":3,
+        "productname": "Top Load Washer & Dryer set with Active Water Jet and Sensor Dry in White",
+        "description": "Laundry set includes a Top Load Washer with Active Water Jet in White, 7.4 cu. ft. Electric Dryer with Sensor Dry in White." ,
+        "price": "1,258.00",
+        "image":"/HomeAppliancesImages/TopLoadWasher&Dryer.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Refrigerator",
+        "id":4,
+        "productname": "18 cu. ft. Top Freezer Refrigerator with FlexZone™ and Ice Maker in Stainless Steel",
+        "description": "The FlexZone™ compartment adjusts from refrigerator to freezer temperatures, while the Twin Cooling Plus™ technology helps keep produce fresher longer." ,
+        "price": "699.99",
+        "image":"/HomeAppliancesImages/TopFreezeRefrigerator.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Refrigerator",
+        "id":5,
+        "productname": "22 cu. ft. Family Hub™ Counter Depth 4-Door Flex™ Refrigerator in Black Stainless Steel",
+        "description": "The Smart way to keep food and drinks fresh – our Family Hub™ feature lets you and your family leave notes, sync calendars, and display photos." ,
+        "price": "2,999.00",
+        "image":"/HomeAppliancesImages/4DoorFlexRefrigerator.webp",
+        "priceRange":"1500.00-2999.99"
+    }
+    ,   {   
+        "category":"Refrigerator",
+        "id":6,
+        "productname": "26.5 cu. ft. Large Capacity 3-Door French Door Refrigerator with Family Hub",
+        "description": "Samsung’s 26.5 cu. ft. large capacity, 3-Door French Door Family Hub™ Refrigerator, is beautifully designed with a minimal dispenser and sleek-edge doors with modern handles." ,
+        "price": "2,199.00",
+        "image":"/HomeAppliancesImages/3DoorFrenchRefrigerator.webp",
+        "priceRange":"1500.00-2999.99"
+    }, 
+      {   
+        "category":"Refrigerator",
+        "id":7,
+        "productname": "25 cu. ft. Side-by-Side Refrigerator with LED Lighting in White",
+        "description": "With an extra-large capacity, this sleek refrigerator features high-efficiency LEDs which beautifully illuminate everything inside." ,
+        "price": "999.99",
+        "image":"/HomeAppliancesImages/2DoorRefrigerator.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Ranges",
+        "id":8,
+        "productname": "5.9 cu. ft. Freestanding Electric Range with Convection in Stainless Steel",
+        "description": "Cook multiple dishes at once with a large capacity and bake and broil food faster and more evenly with Fan Convection." ,
+        "price": "599.99",
+        "image":"/HomeAppliancesImages/FreestandingElectricRange.webp",
+        "priceRange":"300.00-599.99"
+    },
+    {   
+        "category":"Ranges",
+        "id":9,
+        "productname": "5.8 cu. ft. Freestanding Gas Range with Flex Duo™ & Dual Door in Stainless Steel",
+        "description": "This Flex Duo™ oven lets you cook two dishes at different temperatures, while the Dual Door allows you to access just the top oven or the full oven." ,
+        "price": "1,199.99",
+        "image":"/HomeAppliancesImages/FreestandingGasRange.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Ranges",
+        "id":10,
+        "productname": "5.8 cu. ft. Slide-in Dual Fuel Range with Flex Duo™ & Dual Door in Stainless Steel",
+        "description": "Boasting the best of both worlds, this range features a gas cooktop with an electric Flex Duo™ oven that can cook two dishes at different temperatures." ,
+        "price": "2699.00",
+        "image":"/HomeAppliancesImages/DualFuelRange.webp",
+        "priceRange":"1500.00-2999.99"
+    },
+    {   
+        "category":"DishWasher",
+        "id":11,
+        "productname": "Digital Touch Control 55 dBA Dishwasher in Stainless Steel",
+        "description": "Digital touch controls let you easily select dishwashing functions, while an adjustable rack accommodates larger dishes." ,
+        "price": "399.99",
+        "image":"/HomeAppliancesImages/DigitalDishwasher.webp",
+        "priceRange":"300.00-599.99"
+    },
+    {   
+        "category":"Dishwasher",
+        "id":12,
+        "productname": "Linear Wash 39 dBA Dishwasher in Tuscan Stainless Steel",
+        "description": "Our Linear Wash System combined with Whisper Quiet Cleaning brings remarkable cleaning results and a virtually silent performance to your kitchen." ,
+        "price": "849.99",
+        "image":"/HomeAppliancesImages/LinearDishwasher.webp",
+        "priceRange":"600.00-1499.99"
+    },
+    {   
+        "category":"Microwave",
+        "id":13,
+        "productname": "Over-the-Range Microwave with 1.7 cu. ft. Capacity in Stainless Steel",
+        "description": "A stylish design for a seamless and modern look, this over-the-range microwave features large 1.7 cu. ft. capacity and a fingerprint resistant finish. " ,
+        "price": "199.99",
+        "image":"/HomeAppliancesImages/MicrowaveOverTheRange.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Microwave",
+        "id":14,
+        "productname": "1.4 cu. ft. Countertop Microwave with Sensor Cooking in Fingerprint Resistant Black Stainless Steel",
+        "description": "Designed with a scratch-resistant interior, this modern microwave features our Sensor Cooking options which conveniently provide optimal cooking results." ,
+        "price": "179.99",
+        "image":"/HomeAppliancesImages/MicrowaveCountertop.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Microwave",
+        "id":15,
+        "productname": "1.2 cu. ft. PowerGrill Duo™ Countertop Microwave with Power Convection and Built-In Application in Black",
+        "description": "Our PowerGrill Duo™ technology crisps the outside of food without drying the inside, while the Power Convection cooks food quickly and evenly." ,
+        "price": "449.99",
+        "image":"/HomeAppliancesImages/MicrowaveBuiltIn.webp",
+        "priceRange":"300.00-599.99"
+    },
+    {   
+        "category":"Microwave",
+        "id":15,
+        "productname": "1.7 cu. ft. Over-the-Range Convection Microwave in Fingerprint Resistant Stainless Steel",
+        "description": "The convection oven and microwave combination features Slim Fry™ technology, which keeps food crisp on the outside and evenly cooked on the inside." ,
+        "price": "449.99",
+        "image":"/HomeAppliancesImages/Microwave1.7.webp",
+        "priceRange":"300.00-599.99"
+    }
+]

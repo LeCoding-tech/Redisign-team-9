@@ -1,8 +1,12 @@
+body{
+  background: url(../ProductsBody/GalaxyBackground.jpeg);
+}
 .card{
+  background-color: black;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border: solid  2px;
-    
+    border: solid white 2px;
+    height:570px;
     width: calc(25% - 10px);
     white-space: 10px;
     margin-bottom: 10px;
@@ -22,42 +26,50 @@
     margin-top: 50px;
     justify-content: space-between
 }
+
 .price{
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: white;
+   
 }
 .Description{
-    font-size: 14px;
-    font-weight: bold;
+  background-color: navy;
+    font-size: 12px;
     text-align: left;
-    text-decoration: none;
-    color: black;
-    width: 290px;
+    color: white;
     display:block;
     width: 100%;
+    height:100px;
     margin: 0 auto;
-    padding-top: 10px;
+   font-weight: bold;
+   border: white solid 2px;
+   padding-top: 10px;
 }
 .MenuImg{
-        border: solid white;
+ 
         height: 200px;
-        width: 200px;
+        width: 250px;
         display: block;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 .ProductButton{
-        background-color: red;
+        background-color: navy;
+        color: white;
         border: solid black 1px;
         font-weight: bold;
+        border: white solid 2px;
       }   
 .ProductName{
-        color: black;
+        color: white;
+        font-size: 16px;
         font-weight: bolder;
+        height:55px;
+        margin-bottom: 10px;
+       
       }     
 .ProductsContainer {
         margin-top: 55px;
@@ -67,4 +79,9 @@
 .filtersContainer{
   display: flex;
   flex-direction: column;
+  text-align: left;
+}
+.Selectfilters{
+  width: 150px;
+  margin-bottom: 30px;
 }

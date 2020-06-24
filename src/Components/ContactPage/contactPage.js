@@ -9,9 +9,8 @@ const ContactPage = () => {
     <Navbar />
     <ContactBody />
     <Footer />
-    </>
+</>
     )
-    
 }
 
 export default ContactPage;
