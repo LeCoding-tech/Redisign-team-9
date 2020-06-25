@@ -1,0 +1,31 @@
+.Container1{
+    color:white;
+    text-decoration: none;
+    border: solid black 5px;
+    background: url(./SamsungBackground3.gif);
+    background-position: center;
+    height: 500px;
+    width:100%;
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+ul:link{
+    text-decoration: none;
+}
+ul:visited {
+    text-decoration: none;
+  }
+li{
+    
+    color:red; 
+    
+}
+.MobileContainer{
+color:red;    
+width: 100px;
+height: 100px;
+border: solid 5px white;
+
+} 
