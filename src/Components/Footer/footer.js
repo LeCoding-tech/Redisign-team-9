@@ -1,14 +1,11 @@
 import React from 'react';
 import './footer.css';
-
 const Footer = () => {
     return (
-
-
         <div className="box bg-dark">
-            <div className ="img_box">
+            {/* <div className ="img_box">
+            </div> */}
             <img className = "footer_samsung" alt="android" src = "img/Samsung2.jpg"/>
-            </div>
             <div className="footer_box1">
             <h3>Home</h3> 
             <h3>About Us</h3>
@@ -26,18 +23,11 @@ const Footer = () => {
             </div>
             <div className = "social_media">
                 <h2>Feel Free To Check Out Our Social Media Sites!!!</h2>
-            
                 <a href="https://www.instagram.com/samsungmobile/?hl=en"  rel="noopener"> <img className = "instagram_footer" alt="IG" src = "img/instagram.png"/> </a>
             <a href="https://twitter.com/samsung?lang=en"  rel="noopener"><img className = "twitter_footer" src = "img/twitter.png"/></a>
             <a href="https://www.facebook.com/SamsungUS/"  rel="noopener"> <img className = "facebook_footer" alt="Facebook" src = "img/facebook.jpg"/></a>
             </div>
         </div>
-
-
-
-
-
-    )
-}
+    )}
 
 export default Footer;
