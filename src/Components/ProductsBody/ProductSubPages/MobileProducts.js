@@ -97,12 +97,10 @@ const initialState = {
 
       return (
 
-   <div>
-
-     <h1>Mobile Products</h1>
-
+   
     <div className="ProductsContainer">
       <div>
+      <h1>Mobile Products</h1>
         <h3>Search within our Galaxy</h3>
      <input 
       type="text" 
@@ -111,6 +109,7 @@ const initialState = {
       onChange={(e)=>this.searchSpace(e)} />
 
       </div>
+      <div className="box2">
         <div className="filtersContainer">
 
         <p>Shop by Category</p>
@@ -135,7 +134,7 @@ const initialState = {
   
      <div className= "container">
      {this.state.search != null ? items : mappedProducts}
-    </div>
+     </div>
     </div>
     </div>
   );
