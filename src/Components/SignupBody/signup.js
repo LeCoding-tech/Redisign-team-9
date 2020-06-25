@@ -18,6 +18,7 @@ class SignupBody extends React.Component {
     }
     render() {
         return (
+            <div className="container">
             <form className="signup_form">
                 <label>Name
             <input type="text" placeholder="Enter Name Here..." value={this.state.value} onChange={this.handleChange} />
@@ -28,6 +29,7 @@ class SignupBody extends React.Component {
                 <button className="github_button">GitHub</button>
                 <input type="submit" value="Submit" />
             </form>
+            </div>
         )
     }
 }
