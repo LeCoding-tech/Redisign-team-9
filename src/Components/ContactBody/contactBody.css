@@ -1,0 +1,59 @@
+.heading{
+    text-align: center;
+    color: black;
+  }
+  .myForm {
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+    margin-top: 70px;
+    font-size: 25px;
+  }
+  .label--center{
+    text-align: center;
+  } 
+  #name--position{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  }
+  #email--position{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  }
+  #comments--position{
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  }
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .button--item:hover {
+  background-color: silver;
+  }
+  .button--item{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
+    font-size: 16px;
+  }

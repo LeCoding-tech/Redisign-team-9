@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+  .signup_form{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    border: 2px solid black;
+  }
+  .name_label{
+    display: flex;
+    padding: 5px;
+  }
+  .email_label{
+    display: flex;
+    padding: 5px;
+  
+  }
+  .github_button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .submit_input{
+    padding: 5px;
+    cursor: pointer;
+  }

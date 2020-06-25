@@ -31,12 +31,12 @@ color:#fff
 
 /* Features */
 .box {
-    width: 93.0222111122%;
-    padding: 50px;
+    width: 95.0222111122%;
+    padding: 35px;
     text-align: center;
     height: 38vh;
     display: inline-block;
-    background: red ;
+    background: silver ;
 }
 /* Footer */
 #main-footer {
@@ -81,6 +81,37 @@ margin-bottom: 20px;
     color: #fff;
     padding:20px;
 }
-.footer_droid{
-    height: 30%;
+.footer_box1{
+    width:21%;
+    float:left;
 }
+.footer_samsung{
+    width: 20%;
+    float:left;
+    transform: translateY(70px);
+}
+
+.footer_box2{
+width:28%;
+transform: translateY(0px);
+float:left;
+}
+
+.social_media{
+    transform: translateY(36px);
+}
+.instagram_footer{
+    width:6%;
+    margin: 0px 10px;
+}
+.twitter_footer{
+    width:6%;
+    margin:0px 10px;
+}
+
+.facebook_footer{
+width:6%;
+margin: 0px 10px;
+}
+
+
