@@ -27,27 +27,27 @@ const photos = [
 const images = [
     {
         name: 'Events1',
-        url: './homeImages/Events1.webp'
+        url: './homeImages/Events1.jpg'
     },
     {
         name: 'Deals1',
-        url: './homeImages/Deals1.webp'
+        url: './homeImages/Deals1.jpg'
     },
     {
         name: 'Phones',
-        url: './homeImages/Phone.webp'
+        url: './homeImages/Phone.jpg'
     },
     {
         name: 'Computing',
-        url: './homeImages/Computing.webp'
+        url: './homeImages/Computing.jpg'
     },
     {
         name: 'Tvs',
-        url: './homeImages/TVs.webp'
+        url: './homeImages/TVs.jpg'
     },
     {
         name: 'Appliances',
-        url: './homeImages/Appliances.webp'
+        url: './homeImages/Appliances.jpg'
     }
 ]
 
@@ -77,7 +77,7 @@ const HomeBody = () => {
                          {photos.map((photo) => {
                              return(
                                  <div>
-                                     <img width="100%" src={photo.url}/>
+                                     <img src={photo.url} alt={photo.name}/>
                                  </div>
                              )
                          })}
@@ -110,12 +110,12 @@ const HomeBody = () => {
                 <div className="productsSection">
                     <section className="eventsSection sectionBoxes"> 
                         <h2>Current Events</h2>
-                        <img src={images[0].url} alt="Event1 image"/>
+                        <img src={images[0].url} alt={images[0].name}/>
                     </section>
 
                     <section className="dealsSection sectionBoxes">
                         <h2>Daily Deals</h2>
-                        <img src={images[1].url} alt="Deals1 image"/>
+                        <img src={images[1].url} alt={images[1].name}/>
                     </section>
                 </div>
 
@@ -124,19 +124,19 @@ const HomeBody = () => {
                  **********/}  
                 <div className="storeCategories" id="categories">
                     <div className="categoriesLink">
-                        <img src={images[2].url} />
+                        <img src={images[2].url} alt={images[2].name}/>
                         <h3>Phones</h3>
                     </div>
                     <div className="categoriesLink">
-                        <img src={images[3].url} />
+                        <img src={images[3].url} alt={images[3].name}/>
                         <h3>Computing</h3>
                     </div>
                     <div className="categoriesLink">
-                        <img src={images[4].url} />
+                        <img src={images[4].url} alt={images[4].name}/>
                         <h3>TV/Audio</h3>
                     </div>
                     <div className="categoriesLink">
-                        <img src={images[5].url} className="appliances" />
+                        <img src={images[5].url} alt={images[5].name} className="appliances" />
                         <h3>Appliances</h3>
                     </div>
                 </div>

@@ -1,6 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/03fe5644d1605049951f58ca7961c33f?family=Samsung+Sharp+Sans+Bold);
 
-/* Background image */
+/********** 
+Background image 
+**********/
 body{
     margin: 0; 
 }
@@ -9,15 +11,24 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    height: fit-content
 }
-/* Home Slider Styles */
+
+/********** 
+Home Slider Styles 
+**********/
 .slides {
     position: relative;
-    margin: 0 10% 2% 10%;
+    margin: 0 8% 2% 8%;
     padding-top: 5%; 
 }
-/* Scroll Buttons Styles */
+.slides img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/**********  
+Scroll Buttons Styles 
+**********/
 .scrollButtons{
     display: flex;
     justify-content: center;
@@ -36,7 +47,9 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* Products Preview Styles */
+/********** 
+Products Preview Styles 
+**********/
 .productsSection {
     display: flex;
     justify-content: space-around;
@@ -44,7 +57,7 @@ body{
 }
 .sectionBoxes {
     border-radius: 7%;
-    width: 30vw;
+    width: 35vw;
     height: 50vh;
     text-align: center;
     background-color: rgb(245, 245, 245);
@@ -65,7 +78,9 @@ body{
     width: 100%;
 }
 
-/* Store Categories Styles */
+/********** 
+Store Categories Styles 
+**********/
 .storeCategories {
     display: flex; 
     width: 90vw;
@@ -88,7 +103,49 @@ body{
     filter: sepia(80%);
     cursor: pointer;
 }
-.appliances {
-    width: 208px;
-    height: 208px;
+
+/********** 
+Resolution adjustment styles for tablet 
+**********/
+@media (max-width: 1050px) {
+    .slides {
+        margin: 0 0 2% 0;
+        padding-top: unset;
+    }
+    .slides img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .scrollButton{
+        padding: 1%;
+    }
+
+    .sectionBoxes {
+        width: 40vw;
+        height: 25vh; 
+    }
+    .eventsSection h2, .dealsSection h2 {
+        font-size: 1.8rem;
+        margin-bottom: 4%;
+    }
+
+    .categoriesLink img {
+        width: 100%;
+    }
+}
+
+/********** 
+Resolution adjustment styles for phone
+**********/
+@media (max-width: 750px) {
+    .categoriesLink {
+        flex-wrap: wrap;
+    }
+    .categoriesLink h3 {
+       font-size: .6rem;
+    }
+    .categoriesLink img {
+        width: 100%;
+    }
 }
