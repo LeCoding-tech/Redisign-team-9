@@ -139,6 +139,24 @@ Resolution adjustment styles for tablet
 Resolution adjustment styles for phone
 **********/
 @media (max-width: 750px) {
+    .slides img {
+        height: 40vh;
+    }
+
+    .scrollButton{
+        margin: 5% 2% 0 2%;    
+    }
+
+    .eventsSection h2, .dealsSection h2 {
+        font-size: 1.5rem; 
+    }
+    .eventsSection h2 {
+        margin-bottom: 0;
+    }
+    .dealsSection h2 {
+        margin-top: 8%;
+    }
+
     .categoriesLink {
         flex-wrap: wrap;
     }

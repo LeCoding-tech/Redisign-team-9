@@ -47,7 +47,7 @@ const images = [
     },
     {
         name: 'Appliances',
-        url: './homeImages/Appliances.jpg'
+        url: './homeImages/Appliances.webp'
     }
 ]
 
