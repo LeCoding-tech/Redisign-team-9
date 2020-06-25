@@ -4,7 +4,7 @@ import Routes from './Components/Routes/Router'
 class App extends Component {
     render() {
       return (
-        
+
         <Routes/>
       );
     }

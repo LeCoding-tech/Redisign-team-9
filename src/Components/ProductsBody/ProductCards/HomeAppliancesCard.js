@@ -1,7 +1,7 @@
 import React from 'react';
-import '../ProductsBody/productsBody.css';
+import '../../ProductsBody/productsBody.css';
 
-const Product = ({ name, description, price, image }) => {
+const HomeApplianceCard = ({ name, description, price, image }) => {
     return (
         <div className="card">
             <img src={image} alt="Image of product" className="MenuImg"/>
@@ -14,4 +14,4 @@ const Product = ({ name, description, price, image }) => {
         </div>
     )
 }
-export default Product;
+export default HomeApplianceCard;

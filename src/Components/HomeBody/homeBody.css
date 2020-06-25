@@ -1,21 +1,51 @@
 @import url(//db.onlinewebfonts.com/c/03fe5644d1605049951f58ca7961c33f?family=Samsung+Sharp+Sans+Bold);
 
+/* Background image */
+body{
+    margin: 0; 
+}
+.homeBody{
+    background: url('Galaxy_background.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: fit-content
+}
 /* Home Slider Styles */
-.homeSlider {
+.slides {
+    position: relative;
+    margin: 0 10% 2% 10%;
+    padding-top: 5%; 
+}
+/* Scroll Buttons Styles */
+.scrollButtons{
     display: flex;
     justify-content: center;
+}
+.scrollButton{
+    font-family: "Samsung Sharp Sans Bold";
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    height: 100%;
+    padding: .5%;
+    margin: 1% 1% 0 1%;
+}
+.scrollButton:hover{
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 /* Products Preview Styles */
 .productsSection {
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .sectionBoxes {
     border-radius: 7%;
-    width: 40vw;
-    height: 60vh;
+    width: 30vw;
+    height: 50vh;
     text-align: center;
     background-color: rgb(245, 245, 245);
     padding: 2%;
@@ -38,8 +68,27 @@
 /* Store Categories Styles */
 .storeCategories {
     display: flex; 
-    border: 2px solid black;
     width: 90vw;
     height: 30vh;
     margin: 5% auto 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.categoriesLink {
+    flex-direction: row;
+    text-align: center;
+    font-family: "Samsung Sharp Sans Bold";
+}
+.categoriesLink h3 {
+    margin: 0;
+    color: white;
+}
+.categoriesLink img:hover {
+    filter: sepia(80%);
+    cursor: pointer;
+}
+.appliances {
+    width: 208px;
+    height: 208px;
 }

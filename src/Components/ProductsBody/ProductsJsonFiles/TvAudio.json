@@ -1,0 +1,111 @@
+[
+    {   
+        "category":"TV",
+        "id":1,
+        "productname": "75in Class Q60T QLED 4K UHD HDR Smart TV",
+        "description": "Quantum Dot Technology delivers over a billion shades of color that stay true-to-life. Quantum HDR brings out the detail and contrast by expanding the range of color and detail beyond what's possible on HDTVs" ,
+        "price": "1499.99",
+        "image":"/TvAudioImages/75inTV.webp",
+        "priceRange":"700.00-$4599.99"
+    },
+    {   
+        "category":"TV",
+        "id":2,
+        "productname": "65in Class TU8000 Crystal UHD 4K Smart TV",
+        "description": "Experience crystal clear colors that are fine-tuned to deliver a naturally crisp and vivid picture. Picture quality to move you, made possible by a single chip that orchestrates color, optimizes high contrast ratio, and masters HDR" ,
+        "price": "699.99",
+        "image":"/TvAudioImages/65inTV.webp",
+        "priceRange":"300.00-699.99"
+    },
+    {   
+        "category":"TV",
+        "id":3,
+        "productname": "85in Class Q90T QLED 4K UHD HDR Smart TV",
+        "description": "See every detail at any angle. Engineered to reduce glare and enhance color, providing a vibrant picture no matter where you sit. Samsung's powerful 4K Quantum processor automatically optimizes the picture to deliver a more immersive experience" ,
+        "price": "4599.99",
+        "image":"/TvAudioImages/65inTV.webp",
+        "priceRange":"700.00-$4599.99"
+    },
+    {   
+        "category":"TV",
+        "id":4,
+        "productname": "43in Class TU7000 Crystal UHD 4K Smart TV",
+        "description": "The ultra-fast Crystal Processor 4K transforms everything you watch into stunning 4K. See what you’ve been missing on the crisp, clear picture that’s 4X the resolution of Full HD" ,
+        "price": "269.99",
+        "image":"/TvAudioImages/43inTV.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Audio",
+        "id":5,
+        "productname": "HW-Q60R Samsung Harman Kardon Soundbar with Samsung Acoustic Beam",
+        "description": "Samsung Acoustic Beam technology immerses you in panoramic sound that moves with the action. Hear voices clearly with a center channel dedicated to clear dialogue." ,
+        "price": "499.99",
+        "image":"/TvAudioImages/HW-Q60RSoundbar.webp",
+        "priceRange":"300.00-699.99"
+    },
+    {   
+        "category":"Audio",
+        "id":6,
+        "productname": "SWA-9000S - Wireless Rear Speaker Kit for Sound+ & Dolby Atmos Soundbars",
+        "description": "Add wireless surround sound to Samsung's Sound+ and Dolby Atmos Soundbars. Includes 2 channel rear amplifier and 2 wall-mountable rear speakers." ,
+        "price": "179.99",
+        "image":"/TvAudioImages/SWA-9000SAudio.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Audio",
+        "id":7,
+        "productname": "MX-T70 Sound Tower High Power Audio 1500W",
+        "description": "Stereo sound with 1500 watt high power bi-directional speakers.Built-in woofer for sound you can feel" ,
+        "price": "699.99",
+        "image":"/TvAudioImages/SoundTower.webp",
+        "priceRange":"300.00-699.99"
+    },
+    {   
+        "category":"TV",
+        "id":8,
+        "productname": "43 Class The Serif QLED 4K UHD HDR Smart TV (2020)",
+        "description": "The Serif with QLED Technology and unique design adds another level of sophistication to your space. Ambient Mode and unique stand lets you transform your TV and use it in new ways. Stand included with purchase." ,
+        "price": "999.99",
+        "image":"/TvAudioImages/SerifTV.webp",
+        "priceRange":"700.00-$4599.99"
+    },
+    {   
+        "category":"Accessories",
+        "id":9,
+        "productname": "WMN750 Mini Wall Mount (33”-65”)",
+        "description": "Single Wall Mount Solution for a Wide Range of Samsung TVs. Low Profile Design with the Ability to Level the TV." ,
+        "price": "79.99",
+        "image":"/TvAudioImages/MiniWallMount.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Accessories",
+        "id":10,
+        "productname": "Full-Tilt Wall Mount (58in-75in)",
+        "description": "Full-Tilt Wall Mount Designed for use with 2018-2020 58in-75in Samsung TVs. Tilts 10 to 15 Degrees. Swivels Left and Right 20 Degrees." ,
+        "price": "149.99",
+        "image":"/TvAudioImages/FullTiltWallMount.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Accessories",
+        "id":11,
+        "productname": "Studio Stand",
+        "description": "Experience style, elegance and extended viewing angles with the Studio Stand. It's designed with a clutter-free cable management solution to reimagine your space. Compatible with 43in-65in The Frame, 49in-65in QLED 4K and 8K, and 50in-65in UHD" ,
+        "price": "299.99",
+        "image":"/TvAudioImages/StudioStand.webp",
+        "priceRange":"1.00-299.99"
+    },
+    {   
+        "category":"Accessories",
+        "id":12,
+        "productname": "65in The Frame Customizable Bezel",
+        "description": "Compatible with the 65” 2020 Frame TVs and earlier Available in Brown, Beige, White, or Black, each frame adds elegance to any décor." ,
+        "price": "199.99",
+        "image":"/TvAudioImages/FrameCustomizableBezel.webp",
+        "priceRange":"1.00-299.99"
+    }
+
+]
