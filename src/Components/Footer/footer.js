@@ -12,7 +12,6 @@ const Footer = () => {
             <h3>Features</h3>
             <h3>Pricing</h3>
             <h3>Contact Us</h3>
-            <h3>Samsung &copy; 2020, All Rights Reserved </h3>
             </div>
             <div className="footer_box2">
             <h3>Sign Up</h3>
@@ -22,10 +21,11 @@ const Footer = () => {
             <h3>Our Community</h3>
             </div>
             <div className = "social_media">
-                <h2>Feel Free To Check Out Our Social Media Sites!!!</h2>
+                <h3>Feel Free To Check Out Our Social Media Sites!!!</h3>
                 <a href="https://www.instagram.com/samsungmobile/?hl=en"  rel="noopener"> <img className = "instagram_footer" alt="IG" src = "img/instagram.png"/> </a>
             <a href="https://twitter.com/samsung?lang=en"  rel="noopener"><img className = "twitter_footer" src = "img/twitter.png"/></a>
             <a href="https://www.facebook.com/SamsungUS/"  rel="noopener"> <img className = "facebook_footer" alt="Facebook" src = "img/facebook.jpg"/></a>
+            <h3>Samsung &copy; 2020, All Rights Reserved </h3>
             </div>
         </div>
     )}

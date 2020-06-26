@@ -17,7 +17,7 @@ const Ul = styled.ul`
 
 @media (max-width: 750px){
     
-    background-color: rgba(255, 255, 255, 0.562);
+    background-color: rgba(255, 215, 255, 0.564);
     flex-flow: column nowrap;
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@ const Ul = styled.ul`
     padding-top: 2rem;
     text-align: center;
     z-index: 2;
-    transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.3s ease-in-out;
     margin: 0;
     
@@ -38,7 +38,7 @@ const Ul = styled.ul`
   }
   `;
 
-const Navbar = ({open}) => {
+const Navbar = ({ open }) => {
 
     return (
 
@@ -46,29 +46,29 @@ const Navbar = ({open}) => {
             <nav id="navbar">
                 <Ul open={open}>
 
-                        <Link to="/" className="link">
-                            <li>Home</li>
-                        </Link>
-                        <Link to="/" className="link">
-                            <li>About</li>   
-                        </Link>
-                        <Link to="/Products" className="link">
-                            <li>Features</li>
-                        </Link>
-                        <Link to="/" className="link">
-                            <li>Pricing</li>
-                        </Link>
-                        <Link to="/" className="link">
-                            <li>Signup</li>
-                        </Link>
+                    <Link to="/" className="link">
+                        <li>Home</li>
+                    </Link>
+                    <Link to="/" className="link">
+                        <li>About</li>
+                    </Link>
+                    <Link to="/Products" className="link">
+                        <li>Features</li>
+                    </Link>
+                    <Link to="/" className="link">
+                        <li>Pricing</li>
+                    </Link>
+                    <Link to="/" className="link">
+                        <li>Signup</li>
+                    </Link>
 
-                        {/* <div className="search">1</div>
+                    {/* <div className="search">1</div>
                         <div className="cart">2</div> */}
-                    
+
                 </Ul>
             </nav>
         </div>
-    );
-};
+    )
+}
 
 export default Navbar;
