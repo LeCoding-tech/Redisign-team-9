@@ -49,17 +49,14 @@ const Navbar = ({ open }) => {
                     <Link to="/" className="link">
                         <li>Home</li>
                     </Link>
-                    <Link to="/" className="link">
-                        <li>About</li>
-                    </Link>
                     <Link to="/Products" className="link">
-                        <li>Features</li>
-                    </Link>
-                    <Link to="/" className="link">
-                        <li>Pricing</li>
+                        <li>Products</li>
                     </Link>
                     <Link to="/" className="link">
                         <li>Signup</li>
+                    </Link>
+                    <Link to="/Contact" className="link">
+                        <li>Contact</li>
                     </Link>
 
                     {/* <div className="search">1</div>

@@ -48,7 +48,7 @@
     transform: translateY(2px);
 }
   #navbar ul{
-      width: 700px;
+      width: 100%;
   }
   #navbar li{
       padding-right: 3rem;
