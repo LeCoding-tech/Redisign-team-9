@@ -1,0 +1,26 @@
+.Container1{
+    background: url(./SamsungBackground3.gif);
+    background-position: center;
+    height: 550px;
+    width:100%;
+}
+.HomeAppContainer{
+    float: right;
+    padding-right: 300px;
+}
+.TvAudioContainer{
+float: left;
+padding-left: 300px;
+}
+.MobileContainer{
+    padding-left: 590px;
+    padding-right: 590px;
+} 
+.Stars{
+    width: 150px;
+    height:150px;
+    margin: 0 auto;
+}
+.Stars:hover{
+    border: solid 5px navy;
+}
