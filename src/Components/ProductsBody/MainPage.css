@@ -1,31 +1,26 @@
 .Container1{
-    color:white;
-    text-decoration: none;
-    border: solid black 5px;
     background: url(./SamsungBackground3.gif);
     background-position: center;
-    height: 500px;
+    height: 550px;
     width:100%;
 }
-ul{
-    list-style-type: none;
-    color: white;
+.HomeAppContainer{
+    float: right;
+    padding-right: 300px;
 }
-ul:link{
-    text-decoration: none;
-}
-ul:visited {
-    text-decoration: none;
-  }
-li{
-    
-    color:red; 
-    
+.TvAudioContainer{
+float: left;
+padding-left: 300px;
 }
 .MobileContainer{
-color:red;    
-width: 100px;
-height: 100px;
-border: solid 5px white;
-
+    padding-left: 590px;
+    padding-right: 590px;
 } 
+.Stars{
+    width: 150px;
+    height:150px;
+    margin: 0 auto;
+}
+.Stars:hover{
+    border: solid 5px navy;
+}

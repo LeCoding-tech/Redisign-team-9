@@ -1,9 +1,9 @@
 import React from "react";
 import HomePage from '../HomePage/homePage';
 import ProductMainPage from '../ProductsBody/ProductMainPage';
-import Products from '../ProductsBody/ProductSubPages/MobileProducts';
-import HomeAppliancePage from '../ProductsBody/ProductSubPages/HomeAppliances';
-import TvAudioPage from '../ProductsBody/ProductSubPages/TvAudioPage';
+import MobilePage from '../ProductsBody/ProductsPage/Mobile';
+import HomeAppliance from '../ProductsBody/ProductsPage/HomeAppliances';
+import TvAudio from '../ProductsBody/ProductsPage/TvAudio';
 import ContactPage from '../ContactPage/contactPage';
 import SignupPage from '../SignupPage/signupPage';
 
@@ -17,9 +17,9 @@ class Routes extends React.Component {
       <div>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/Products' component={ProductMainPage} />
-        <Route exact path='/Products/MobileProducts' component={Products}/>
-        <Route exact path='/Products/HomeAppliancePage' component={HomeAppliancePage}/>
-        <Route exact path='/Products/TvAudioPage' component={TvAudioPage}/>
+        <Route exact path='/Products/MobileProducts' component={MobilePage}/>
+        <Route exact path='/Products/HomeAppliancePage' component={HomeAppliance}/>
+        <Route exact path='/Products/TvAudioPage' component={TvAudio}/>
         <Route exact path='/Contact' component={ContactPage} />
         <Route exact path='/signup' component={SignupPage} />
       </div>

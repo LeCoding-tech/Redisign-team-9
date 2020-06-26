@@ -67,14 +67,13 @@ const initialState = {
     }
 
     const elementStyle ={
-      border:'solid 2px',
+      border:'solid white 2px',
       borderRadius:'10px',
-      position:'relative',
+      position:'center',
       left:'10vh',
       height:'3vh',
-      width:'60vh',
-      marginTop:'5vh',
-      marginBottom:'10vh'
+      width:'50vh',
+
     }
 
 
@@ -95,26 +94,22 @@ const initialState = {
         })
 
       return (
-
-   <div>
-
-     <h1 >Home Appliances</h1>
-
     <div className="ProductsContainer">
+    <h1 >Home Appliances</h1>
       <div>
 
-      <h3>Search within our Galaxy</h3>
      <input
       type="text"
-      placeholder="Enter item to be searched"
+      placeholder="Search within our Galaxy"
       style={elementStyle}
-      onChange={(e)=>this.searchSpace(e)} />
+      onChange={(e)=>this.searchSpace(e)} 
+      />
 
       </div>
         <div className="filtersContainer">
-        <p>Shop by Category</p>
+      
         <select className="Selectfilters" onChange={evt => this.filterProducts(evt)} >
-                <option value="All">All Types</option>
+                <option value="All">All Catagories</option>
                 <option value="Dishwasher">Dishwasher</option>
                 <option value="Laundry">Laundry</option>
                 <option value="Microwave">Microwave</option>
@@ -122,7 +117,7 @@ const initialState = {
                  <option value="Refrigerator">Refrigerator</option>
 
         </select>
-        <p>Shop By Price </p>
+ 
         <select className="Selectfilters" onChange={evt => this.filterPrice(evt)} >
                 <option value="All">All Prices</option>
                 <option value="1.00-299.99">$1.00-$299.99</option>
@@ -130,11 +125,11 @@ const initialState = {
                 <option value="600.00-1499.99">$600.00-$1499.99</option>
                 <option value="1500.00-2999.99">$1500.00-$2999.99</option>
         </select>
+        
         </div>
 
      <div className= "container">
      {this.state.search != null ? items : mappedProducts}
-    </div>
     </div>
     </div>
   );
