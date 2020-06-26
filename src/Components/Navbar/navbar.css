@@ -1,14 +1,16 @@
-#navbar ul {
+/* #navbar ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     font-weight: bold;
-    transform: translateX(-220px);
+    transform: translateX(-185px);
+    align-items: flex-end;
 }
 #navbar li a {
     transform:translateY(10px);
     color:purple;
     margin:-54px;
+    text-decoration: none;
 }
 .samsung_nav{
     width: 21%;
@@ -16,16 +18,70 @@
     transform: translateY(2px);
 }
 
-#navbar li {
-    color:black;
-    text-decoration: none;
-    font-size: 43px;
-}
+
 #navbar {
   background: silver;
   color: #fff;
   overflow: auto;
   width: 100%;
   height:14vh;
-}
+  color:black;
+  text-decoration: none;
+  font-size: 43px;
+} */
 
+/* Header Styles */
+.header__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: silver;
+    top: 0;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .samsung_nav{
+    width: 21%;
+    height: 8vh;
+    transform: translateY(2px);
+}
+  #navbar ul{
+      width: 700px;
+  }
+  #navbar li{
+      padding-right: 3rem;
+      font-family: "Samsung Sharp Sans Bold";
+  }
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+  .link:hover{
+    color: rgb(238, 219, 255);
+
+  }
+
+  .cart {
+      background-color: black;
+      border-radius: 50%;
+      width: 2vw;
+      height: 3vh;
+      margin-left: 5%;
+  }
+
+  .search {
+    background-color: black;
+    width: 10%;
+    margin-left: 6%;
+  }
+
+  @media (max-width: 750px) {
+    .samsung_nav{
+        width: 50%
+    }
+    #navbar li{
+        padding-left: 26rem;
+    }
+  }

@@ -1,42 +1,32 @@
-
-
 .bg-light {
     background: #F4F4F4;
     color:#333
 }
-
 .bg-primary {
     background: #F7C08A;
     color: #333;
 }
-
 .bg-dark {
 background: #333;
 color:#fff
 } 
-
 .clr {
     clear: both;
 }
-
 /*Padding*/
 .py-1{padding:10px 0;}
 .py-2{padding:20px 0;}
 .py-3{padding:30px 0;}
-
-
-
-
-
-
 /* Features */
 .box {
-    width: 95.0222111122%;
-    padding: 35px;
+    width: 100%; /* 95.0222111122% */
+    padding: 2% 0 2% 0; /* 35px */
     text-align: center;
     height: 38vh;
-    display: inline-block;
+    display: flex;  /* inline-block */
     background: silver ;
+    align-items: center;  /* delete */
+    justify-content: space-around;  /* delete */
 }
 /* Footer */
 #main-footer {
@@ -45,36 +35,27 @@ color:#fff
     color: #fff;
     padding: 40px;
 }
-
-
-
-   
 #contact-form .form-group {
 margin-bottom: 20px;
 }
-
 #contact-form label {
     display:block;
     margin-bottom: 5px;
 }
-
 #contact-form input, 
 #contact-form textarea {
     width: 100%;
     padding: 10px;
     border: 1px #ddd solid;
 }
-
 #contact-form textarea {
     height:200px;
 }
-
 #contact-form input:focus
 #contact-form textarea:focus {
     outline:none;
     border-color: #F7C08A;
 }
-
 #main-footer{
     text-align: center;
     background: #444;
@@ -82,36 +63,43 @@ margin-bottom: 20px;
     padding:20px;
 }
 .footer_box1{
-    width:21%;
-    float:left;
+    width:20%; /* 21% */
+    /* float:left; */
 }
 .footer_samsung{
-    width: 20%;
-    float:left;
-    transform: translateY(70px);
+    width: 15%;  /* 20% */
+    height: 10vh;  /* delete */
+    /* float:left; */
+    /* transform: translateY(70px); */
 }
-
 .footer_box2{
-width:28%;
-transform: translateY(0px);
-float:left;
+width:20%; /* 28% */
+/* transform: translateY(0px); */
+/* float:left; */
 }
 
-.social_media{
-    transform: translateY(36px);
-}
 .instagram_footer{
-    width:6%;
+    width:10%;
     margin: 0px 10px;
 }
 .twitter_footer{
-    width:6%;
+    width:10%;
     margin:0px 10px;
 }
-
 .facebook_footer{
-width:6%;
+width:10%;
 margin: 0px 10px;
 }
 
-
+@media (max-width: 750px) {
+h3{
+    font-size: 9px;
+}
+.footer_samsung{
+    width: 14%;  
+    height: 6vh; 
+}
+.box{
+    height:22vh;
+}
+}
