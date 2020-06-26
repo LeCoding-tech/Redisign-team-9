@@ -18,7 +18,7 @@ Home Slider Styles
 **********/
 .slides {
     position: relative;
-    margin: 0 8% 2% 8%;
+    margin: 0 0 2% 0;
     padding-top: 5%; 
 }
 .slides img {
@@ -36,14 +36,15 @@ Scroll Buttons Styles
 .scrollButton{
     font-family: "Samsung Sharp Sans Bold";
     cursor: pointer;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(41, 40, 40);
     border-radius: 50px;
     height: 100%;
     padding: .5%;
     margin: 1% 1% 0 1%;
+    color: white;
 }
 .scrollButton:hover{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(68, 66, 66);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -60,18 +61,19 @@ Products Preview Styles
     width: 35vw;
     height: 50vh;
     text-align: center;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(99, 61, 168);
     padding: 2%;
 }
 .sectionBoxes:hover {
     cursor: pointer;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(41, 40, 40);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .eventsSection h2, .dealsSection h2 {
     font-size: 2.2rem;
     font-family: "Samsung Sharp Sans Bold";
     font-weight: bold;
+    color: white;
     margin: 0
 }
 .eventsSection img, .dealsSection img{
@@ -140,7 +142,7 @@ Resolution adjustment styles for phone
 **********/
 @media (max-width: 750px) {
     .slides img {
-        height: 40vh;
+        height: 24vh;
     }
 
     .scrollButton{
