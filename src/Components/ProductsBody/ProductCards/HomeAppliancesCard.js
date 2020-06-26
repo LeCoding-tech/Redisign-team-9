@@ -7,7 +7,9 @@ const HomeApplianceCard = ({ name, description, price, image }) => {
             <img src={image} alt="Image of product" className="MenuImg"/>
             <div className="container2">
                 <h3 className="ProductName">{name}</h3>
+                <div className="descriptionBox">
                 <p className="Description">{description}</p>
+                </div>
                 <p className="price">${price}</p>
                 <button className="ProductButton " type="button">Buy Now</button>
             </div>

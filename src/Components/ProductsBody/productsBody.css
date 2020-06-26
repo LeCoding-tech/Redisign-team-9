@@ -1,9 +1,10 @@
-/* body{
-  background: url(../ProductsBody/GalaxyBackground.jpeg);
-} */
 h1{
   color:white;  
   font-size: 50px;
+  text-align: center;
+  margin: 0px 10px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 h3{
   color:white
@@ -21,7 +22,7 @@ h3{
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  background-color: #97BC62FF;
+  border: solid 5px navy;
 }
 .container2 {
   padding: 2px 16px;
@@ -31,8 +32,8 @@ h3{
   display: flex;
   flex-wrap: wrap;
   padding: 0px 20px ;
-  margin-top: 50px;
-  justify-content: space-between
+  justify-content: space-between;
+  margin: 0px 50px;
 }
 
 .price{
@@ -42,26 +43,31 @@ h3{
   color: white;
    
 }
+.descriptionBox{
+  padding-top: 20px;
+}
 .Description{
-  background-color: navy;
   font-size: 12px;
   font-weight: bold;
   text-align: left;
   color: white;
   display:block;
-  width: 100%;
+  width: 90%;
   height:100px;
   margin: 0 auto;
   border: white solid 2px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   overflow-y: scroll;
+  border-radius: 15px;
 }
 .MenuImg{
   height: 200px;
-  width: 250px;
+  width: 80%;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   border-radius: 15px 50px 30px 5px;
 }
@@ -80,24 +86,84 @@ h3{
   margin-bottom: 10px;
 }     
 .ProductsContainer {
-  margin-top: 55px;
   text-align: center;
   background: url(../ProductsBody/GalaxyBackground.jpeg);
   background-size: contain;
 }    
 .filtersContainer{
-  padding-top: 40px;
+  padding-top: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: left;
   color:white;
+  margin: 0px 80px;
 }
 .Selectfilters{
   width: 150px;
   margin-bottom: 30px;
 }
-.box2{
+
+
+@media only screen and (max-width: 800px) {
+
+  /* Menu Page */   
+.card{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
+.MenuImg{
+  width: 125px;
+  height: 125px;
+  margin-bottom: -100px;
+}
+.ProductName{
+  font-size: 18px;
+}
+.Description, .price{
+text-align: center;
+width: 100px;      
+font-size: 12px;
+margin-top: 40px;
+}
+.filtersContainer{
+  
+}
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+  /* mobilePhone styling */
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0px;
+}
+.card{
+  width: 47%;
+}
+.MenuImg{
+  width: 125px;
+  height: 125px;
+  margin-bottom: -100px;
+}
+.ProductName{
+  font-size: 18px;
+}
+.Description, .price{
+text-align: center;
+width: 100px;      
+font-size: 12px;
+margin-top: 40px;
+}
+input{
+  width: 50%;
+}
+}
+
+
+
+
 

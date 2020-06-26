@@ -2,7 +2,10 @@ import React from "react";
 import "./MainPage.css";
 import Navbar from '../Navbar/navbar';
 import { Link } from "react-router-dom";
-
+import HomeAppStar from "../ProductsBody/images/HomeAppStar.png";
+import MobileStar from "../ProductsBody/images/MobileProdStar.png";
+import TvAudioStar from "./images/TvAudioStar.png";
+import Footer from "../Footer/footer"
 
 
 const ProductMainPage = () => {
@@ -11,17 +14,16 @@ const ProductMainPage = () => {
       <Navbar/>
         <ul className="Container1">
           <div className="MobileContainer">
-          <li>
-          <Link to="/Products/MobileProducts">Mobile Products</Link>
-          </li>
+          <Link to="/Products/MobileProducts"><img className="Stars"src={MobileStar}/></Link>
           </div>
-          <li>
-          <Link to="/Products/HomeAppliancePage">Home Appliances</Link>
-          </li>
-          <li>
-          <Link to="/Products/TvAudioPage">Tv & Audio</Link>
-          </li>
+          <div className="HomeAppContainer">
+          <Link to="/Products/HomeAppliancePage"><img className="Stars" src={HomeAppStar}/></Link>
+          </div>
+          <div className="TvAudioContainer">
+          <Link to="/Products/TvAudioPage"><img className="Stars" src={TvAudioStar}/></Link>
+          </div>
         </ul>
+        <Footer/>
     </div>
   );
 };
