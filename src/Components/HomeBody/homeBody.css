@@ -142,7 +142,7 @@ Resolution adjustment styles for phone
 **********/
 @media (max-width: 750px) {
     .slides img {
-        height: 40vh;
+        height: 24vh;
     }
 
     .scrollButton{
