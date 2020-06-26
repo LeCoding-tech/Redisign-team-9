@@ -82,6 +82,7 @@
         width: 50%
     }
     #navbar li{
-        padding-left: 26rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
     }
   }
