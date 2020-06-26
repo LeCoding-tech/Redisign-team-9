@@ -7,7 +7,7 @@ const Footer = () => {
             </div> */}
             <img className = "footer_samsung" alt="android" src = "img/Samsung2.jpg"/>
             <div className="footer_box1">
-            <h3>Home</h3> 
+            <h3>Home</h3>
             <h3>About Us</h3>
             <h3>Features</h3>
             <h3>Pricing</h3>

@@ -18,7 +18,7 @@ class ContactBody extends React.Component {
     }
 
     submitHandler = event => {
-        e.preventDefault()
+        event.preventDefault()
         // axios.post(endpoint, this.state)
     }
 
