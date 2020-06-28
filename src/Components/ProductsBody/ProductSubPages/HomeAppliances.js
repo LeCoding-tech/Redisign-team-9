@@ -67,7 +67,7 @@ const initialState = {
     }
 
     const elementStyle ={
-      border:'solid white 2px',
+      border:'solid mediumpurple 4px',
       borderRadius:'10px',
       position:'center',
       left:'10vh',
