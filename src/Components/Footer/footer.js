@@ -8,10 +8,9 @@ const Footer = () => {
             </div> */}
             <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
             <div className="footer_box1">
-<<<<<<< HEAD
+
             <Link to="/" className="link">
-=======
->>>>>>> 293dda5d00fa369e7b8d1398684795d0c7f6f5c6
+
                 <h3>Home</h3>
             </Link>
             <Link to="/Products" className="link">
@@ -19,15 +18,13 @@ const Footer = () => {
             </Link>
             <Link to="/Contact" className="link">
                 <h3>Contact Us</h3>
-<<<<<<< HEAD
             </Link>
-           
+
            </div>
-=======
 
 
-            </div>
->>>>>>> 293dda5d00fa369e7b8d1398684795d0c7f6f5c6
+
+
             <div className="footer_box2">
                 <h3>Sign Up</h3>
                 <h3>Personas</h3>

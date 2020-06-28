@@ -7,7 +7,7 @@ class App extends Component {
 
         <Routes/>
       );
-    }
+    } 
   }
 
 export default App;
