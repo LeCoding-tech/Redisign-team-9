@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../../Navbar/navbar';
+import Header from '../../Navbar/Header';
 import Footer from '../../Footer/footer';
 import TvAudioPage from '../ProductSubPages/TvAudioPage';
 
 const TvAudio = () => {
     return(
         <>
-        <Navbar />
+        <Header />
         <TvAudioPage />
         <Footer />
         </>
