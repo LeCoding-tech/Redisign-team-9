@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../../Navbar/navbar';
+import Header from '../../Navbar/Header';
 import Footer from '../../Footer/footer';
 import Products from '../ProductSubPages/MobileProducts';
 
 const MobilePage = () => {
     return(
         <>
-        <Navbar />
+        <Header />
         <Products />
         <Footer />
         </>

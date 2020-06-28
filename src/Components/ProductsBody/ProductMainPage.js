@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainPage.css";
-import Navbar from '../Navbar/navbar';
+import Header from '../Navbar/Header';
 import { Link } from "react-router-dom";
 import HomeAppStar from "../ProductsBody/images/HomeAppStar.png";
 import MobileStar from "../ProductsBody/images/MobileProdStar.png";
@@ -11,7 +11,7 @@ import Footer from "../Footer/footer"
 const ProductMainPage = () => {
   return (
     <div>
-      <Navbar/>
+      <Header/>
         <ul className="Container1">
           <div className="MobileContainer">
           <Link to="/Products/MobileProducts"><img className="Stars"src={MobileStar}/></Link>
