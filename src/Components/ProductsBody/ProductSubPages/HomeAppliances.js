@@ -95,7 +95,7 @@ const initialState = {
 
       return (
     <div className="ProductsContainer">
-    <h1 >Home Appliances</h1>
+    <h1>Home Appliances</h1>
       <div>
 
      <input

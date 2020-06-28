@@ -33,7 +33,10 @@ h3{
   flex-wrap: wrap;
   padding: 0px 20px ;
   justify-content: space-between;
-  margin: 0px 50px;
+  margin-bottom:0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 .price{
