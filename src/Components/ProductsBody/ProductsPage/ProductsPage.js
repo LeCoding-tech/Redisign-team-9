@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from '../../Navbar/navbar';
+import Header from '../../Navbar/Header';
 import Footer from '../../Footer/footer';
 import ProductsMainPage from '../ProductMainPage';
 
 const ProductsPage = () => {
     return(
         <>
-        <Navbar />
-        <ProductsMainPage />
+        <Header />
+        <ProductsMainPage/>
         <Footer />
         </>
     )
 }
 
-export default ProductsPage
+export default ProductsPage;
