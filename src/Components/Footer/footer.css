@@ -24,7 +24,7 @@ color:#fff
     text-align: center;
     height: 22vh;
     display: flex;  /* inline-block */
-    background:darkviolet ;
+    background:rgb(99, 61, 168); ;
     align-items: center;  /* delete */
     justify-content: space-around;  /* delete */
 }

@@ -1,7 +1,4 @@
-body{
-  background: url(../ProductsBody/GalaxyBackground.jpeg);
-  width: 100%;
-}
+
 h1{
   color:silver;  
   font-size: 50px;
@@ -97,7 +94,7 @@ h3{
   background-size: contain;
   height:100%;
   width: 100%;
-
+  background: url(../ProductsBody/GalaxyBackground.jpeg);
 }    
 .filtersContainer{
   padding-top: 50px;
@@ -126,6 +123,7 @@ h3{
 }
 .ProductName{
   font-size: 18px;
+  padding-bottom: 50px;
 }
 .Description .price{
 text-align: center;

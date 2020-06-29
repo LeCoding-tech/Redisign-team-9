@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './sighupBody.css'
 
 class SignupBody extends React.Component {
     constructor(props) {
