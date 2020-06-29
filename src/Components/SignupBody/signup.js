@@ -20,14 +20,25 @@ class SignupBody extends React.Component {
         return (
             <div className="container">
             <form className="signup_form">
-                <label>Name
-            <input type="text" placeholder="Enter Name Here..." value={this.state.value} onChange={this.handleChange} />
+                <label className="firstName_label">First Name
+            <input className="firstName_input" type="text" value={this.state.value} onChange={this.handleChange} />
                 </label>
-                <label>Email
-                    <input type="text" placeholder="Enter Email Here..." value={this.state.value} onChange={this.handleChange}/>
+                <label className="lastName_label">Last Name
+            <input className="lastName_input" type="text" value={this.state.value} onChange={this.handleChange} />
                 </label>
+                <label className="email_label">Email
+                    <input className="email_input" type="text" value={this.state.value} onChange={this.handleChange}/>
+                </label>
+                <label className="password_label">Password (6 or more charecters)
+            <input className="password_input" type="text" value={this.state.value} onChange={this.handleChange} />
+                </label>
+                <p>By clicking Join Now, you agree to Samnsungs <b>User Agreement</b>, <b>Privacy Policy</b>, and <b>Cookie Policy</b>.</p>
+                <input className="submit_input" type="submit" value="Join Now" />
+                <div className="line">
+                <hr />
+                </div>
                 <button className="github_button">GitHub</button>
-                <input type="submit" value="Submit" />
+                <p>Already Have An Account?<a>Sign In</a></p>
             </form>
             </div>
         )
