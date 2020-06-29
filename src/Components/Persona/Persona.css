@@ -1,6 +1,7 @@
-.MainContainer{
-    display: flex;
-    flex-direction: row;
+.PersonaBox{
+  display: flex;
+  flex-direction: row;
+  margin: auto
 }
 .container {
     border: 2px solid #ccc;
@@ -10,7 +11,7 @@
     width:30%;
     color:white;
   }
-  img{
+  .img{
       height:100px;
       width:100px;
       padding-top: 10px;
