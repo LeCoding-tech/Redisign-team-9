@@ -26,7 +26,10 @@ const Footer = () => {
 
 
             <div className="footer_box2">
-                <h3>Sign Up</h3>
+            <Link to="/" className="link">
+            <h3>Sign Up</h3> 
+            </Link>
+                
                 <h3>Personas</h3>
 
             </div>
