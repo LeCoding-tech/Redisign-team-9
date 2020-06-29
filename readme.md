@@ -1,12 +1,8 @@
 # Samsung (Revised)
 
----
-
 Welcome to the Samsung Revised. The goal of this project was to redesign the layout and structure of the original samsung site while making improvements and allowing a better user interface for the consumers. Any images or products shown within the site are stored and taken from a MYSQL database. The whole site has been taken and put into a react app.
 
 ## Let's Get Started
-
----
 
 1. You will need to clone the repo on to your computer either by downloading the zip or through the terminal.
 2. Once you've cloned the repo, go to your text editor of choice and open the folder.
@@ -15,8 +11,6 @@ Welcome to the Samsung Revised. The goal of this project was to redesign the lay
 
 ## Running The Site
 
----
-
 Once all of the node modules have installed into the Samsung folder you can now start the site and view it for yourself!
 1. Make sure you are within the root directory, or folder.
 2. If you are there you need to type in the command **npm start** in the terminal.
@@ -24,20 +18,14 @@ Once all of the node modules have installed into the Samsung folder you can now 
 
 ## Stopping the Site
 
----
-
 When you're done viewing the site or need to install more modules to make edits you can press **ctrl + c** in the terminal and it will prompt you with *Terminate batch job (Y/N)*, and then you press **y** to say yes you do.
 
 ## Built With
-
----
 
 - React App
 - MYSQL
 
 ## Authors
-
----
 
 - Leeangelo Riley
 - Nicolas Conaway
@@ -46,7 +34,5 @@ When you're done viewing the site or need to install more modules to make edits 
 - Austin Cordova
 
 ## License
-
----
 
 This project is licensed under the MIT License - see the LICENSE file for details.
