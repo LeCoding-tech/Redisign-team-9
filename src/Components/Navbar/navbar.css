@@ -35,19 +35,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color:darkviolet;
-  top: 0;
+  background:rgb(99, 61, 168);
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
 .samsung_nav{
-<<<<<<< HEAD
+
   width: 21%;
-=======
-  width: 22%;
->>>>>>> b0782efe97983044c1ab8415c737cd3bb55a6ff9
   height: 8vh;
   transform: translateY(2px);
 }
