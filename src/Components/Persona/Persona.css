@@ -1,0 +1,42 @@
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    width:30%;
+    color:white;
+  }
+  img{
+      height:100px;
+      width:100px;
+      padding-top: 10px;
+  }
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .checked {
+    color: orange;
+  }
+  
+  @media (max-width: 750px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
