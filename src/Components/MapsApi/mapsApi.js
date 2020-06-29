@@ -36,7 +36,7 @@ const center = {
 
 export default function Maps() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: process.env.Api_Key,
+    googleMapsApiKey: "AIzaSyAn9cgmJYhLQcf6D9AShZivtRHQSkvxMj0",
     // Made it var to make sure react doesn't rerender weird
     libraries,
   });
@@ -76,7 +76,7 @@ export default function Maps() {
 
   return (
     <div>
-      <h2>Samsung</h2>
+      <h2 className="map">Samsung</h2>
 
       <Search panTo={panTo} />
 
