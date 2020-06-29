@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import HomeScroll from './HomeScroll'
+import Persona from '../Persona/persona';
 
 const photos = [
     {
@@ -126,7 +127,7 @@ const HomeBody = () => {
                         <h3>Appliances</h3>
                     </Link>
                 </div>
-
+                 <Persona/>
             </div> 
     )
     

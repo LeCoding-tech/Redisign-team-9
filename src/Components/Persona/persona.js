@@ -6,9 +6,9 @@ import './Persona.css';
 const Persona = () => {
     return (
         <>
-        <div className="MainContainer">
+            <div className="PersonaBox">
             <div className="container">
-                <img src={David} alt="Picture of Customer" />
+                <img className="img" src={David} alt="Picture of Customer" />
                 <p><span>David Garcia</span> Road 2 Hore Student</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -18,7 +18,7 @@ const Persona = () => {
                 <p>Story: David enjoys technology and working with new appliances. David enjoys our website redesign and how easy it was to use it. David was able to find the products he needed and was able to contact our customer support if there were any issues he encountered. David remains a loyal customer until this day.</p>
             </div>
             <div className="container">
-                <img src={Alan} alt="Picture of Customer" />
+                <img className="img" src={Alan} alt="Picture of Customer" />
                 <p><span>Alan Vang</span> CEO at Mighty Schools.</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -27,7 +27,8 @@ const Persona = () => {
                 <span class="fa fa-star checked"></span>
                 <p>Story: Alan was one of our customers looking for new mobile products to use and found the redesign of our site very user friendly. “The site was very easy to use. Not complicated and I was able to have an easy process buying the applications I needed.” ~ Alan</p>
             </div>
-        </div>    
+            </div>
+           
         </>
     )
 }
