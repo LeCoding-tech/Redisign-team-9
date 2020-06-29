@@ -26,7 +26,7 @@ const Footer = () => {
 
 
             <div className="footer_box2">
-            <Link to="/" className="link">
+            <Link to="/signup" className="link">
             <h3>Sign Up</h3> 
             </Link>
                 
