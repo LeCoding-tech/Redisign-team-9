@@ -1,3 +1,7 @@
+body{
+  background: url(../ProductsBody/GalaxyBackground.jpeg);
+  width: 100%;
+}
 h1{
   color:silver;  
   font-size: 50px;
@@ -17,7 +21,7 @@ h3{
   height:570px;
   width: calc(25% - 10px);
   white-space: 10px;
-  margin-bottom: 10px;
+  margin: 5px 2px;
   border-radius: 15px 50px;
 }
 .card:hover {
@@ -90,8 +94,10 @@ h3{
 }     
 .ProductsContainer {
   text-align: center;
-  background: url(../ProductsBody/GalaxyBackground.jpeg);
   background-size: contain;
+  height:100%;
+  width: 100%;
+
 }    
 .filtersContainer{
   padding-top: 50px;
@@ -107,9 +113,8 @@ h3{
 }
 
 
-@media only screen and (max-width: 800px) {
-
-  /* Menu Page */   
+@media (max-width: 1050px) {
+   
 .card{
   display: flex;
   flex-wrap: wrap;
@@ -122,20 +127,16 @@ h3{
 .ProductName{
   font-size: 18px;
 }
-.Description, .price{
+.Description .price{
 text-align: center;
 width: 100px;      
 font-size: 12px;
 margin-top: 40px;
 }
-.filtersContainer{
-  
-}
 }
 
 
-
-@media only screen and (max-width: 450px) {
+@media (max-width: 750px) {
 
   /* mobilePhone styling */
 
@@ -143,6 +144,7 @@ margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   padding:0px;
+  width: 100%;
 }
 .card{
   width: 47%;
@@ -153,7 +155,7 @@ margin-top: 40px;
   margin-bottom: -100px;
 }
 .ProductName{
-  font-size: 18px;
+  font-size: 14px;
 }
 .Description, .price{
 text-align: center;

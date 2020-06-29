@@ -119,8 +119,8 @@
     {   
         "category":"Microwave",
         "id":14,
-        "productname": "1.4 cu. ft. Countertop Microwave with Sensor Cooking in Fingerprint Resistant Black Stainless Steel",
-        "description": "Designed with a scratch-resistant interior, this modern microwave features our Sensor Cooking options which conveniently provide optimal cooking results." ,
+        "productname": "1.4 cu. ft. Countertop Microwave with Sensor Cooking ",
+        "description": "Designed with a scratch-resistant interior, this modern microwave features our Sensor Cooking options which conveniently provide optimal cooking results. in Fingerprint Resistant Black Stainless Steel" ,
         "price": "179.99",
         "image":"/HomeAppliancesImages/MicrowaveCountertop.webp",
         "priceRange":"1.00-299.99"
@@ -128,7 +128,7 @@
     {   
         "category":"Microwave",
         "id":15,
-        "productname": "1.2 cu. ft. PowerGrill Duo™ Countertop Microwave with Power Convection and Built-In Application in Black",
+        "productname": "1.2 cu. ft. PowerGrill Duo™ Countertop Microwave with Power Convection ",
         "description": "Our PowerGrill Duo™ technology crisps the outside of food without drying the inside, while the Power Convection cooks food quickly and evenly." ,
         "price": "449.99",
         "image":"/HomeAppliancesImages/MicrowaveBuiltIn.webp",
@@ -137,8 +137,8 @@
     {   
         "category":"Microwave",
         "id":15,
-        "productname": "1.7 cu. ft. Over-the-Range Convection Microwave in Fingerprint Resistant Stainless Steel",
-        "description": "The convection oven and microwave combination features Slim Fry™ technology, which keeps food crisp on the outside and evenly cooked on the inside." ,
+        "productname": "1.7 cu. ft. Over-the-Range Convection Microwave ",
+        "description": "The convection oven and microwave combination features Slim Fry™ technology, which keeps food crisp on the outside and evenly cooked on the inside. In Fingerprint Resistant Stainless Steel" ,
         "price": "449.99",
         "image":"/HomeAppliancesImages/Microwave1.7.webp",
         "priceRange":"300.00-599.99"

@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import HomeAppStar from "../ProductsBody/images/HomeAppStar.png";
 import MobileStar from "../ProductsBody/images/MobileProdStar.png";
 import TvAudioStar from "./images/TvAudioStar.png";
-import Footer from "../Footer/footer"
+import Footer from "../Footer/footer";
 
 
 const ProductMainPage = () => {
   return (
-    <div>
+    <div className="MainBody">
       <Header/>
         <ul className="Container1">
           <div className="MobileContainer">
