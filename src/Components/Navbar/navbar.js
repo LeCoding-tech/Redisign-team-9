@@ -38,16 +38,16 @@ const Navbar = ({ open }) => {
             <nav id="navbar">
                 <Ul open={open}>
 
-                    <Link to="/" className="link">
+                    <Link to="/" className="navlink">
                         <li>Home</li>
                     </Link>
-                    <Link to="/Products" className="link">
+                    <Link to="/Products" className="navlink">
                         <li>Products</li>
                     </Link>
-                    <Link to="/Login" className="link">
+                    <Link to="/Login" className="navlink">
                         <li>Account</li>
                     </Link>
-                    <Link to="/Contact" className="link">
+                    <Link to="/Contact" className="navlink">
                         <li>Contact</li>
                     </Link>
 

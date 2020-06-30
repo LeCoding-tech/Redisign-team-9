@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../LoginBody/LoginBody.css'
 
 
@@ -21,19 +21,22 @@ class LoginBody extends React.Component {
     render() {
         return (
             <div className="LoginContainer">
-                
-            <form className="Login_form">
-            <h1 className="LoginH1">Login</h1>
-                <label className="email_label">Email Address
-                    <input className="email_input" type="text" value={this.state.value} onChange={this.handleChange}/>
-                </label>
-                <label className="password_label">Password (6 or more charecters)
-            <input className="password_input" type="text" value={this.state.value} onChange={this.handleChange} />
-                </label>
-                <input className="submit_input" type="submit" value="LogIn" />
-                <p>Don't Have An Account?<Link to="/SignUp">Sign Up</Link></p>
 
-            </form>
+                <form className="Login_form">
+                    <h1 className="LoginH1">Login</h1>
+                    <label className="email_label">Email Address</label>
+                    <input className="email_input" type="text" value={this.state.value} onChange={this.handleChange} />
+
+                    <label className="password_label">Password (6 or more charecters)</label>
+                    <input className="password_input" type="text" value={this.state.value} onChange={this.handleChange} />
+
+                    <button className="loginSubmit_input" type="submit">Login</button>
+                    
+                    <p>Don't Have An Account?</p>
+                    <Link to="/SignUp" className="signupLink">Sign Up</Link>
+                    
+
+                </form>
             </div>
         )
     }

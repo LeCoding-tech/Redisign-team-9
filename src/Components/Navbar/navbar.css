@@ -55,14 +55,15 @@
 
   
 }
-.link{
+.navlink{
+    color: white;
+    font-size: 24px;;
     padding-right: 3rem;
     font-family: "Samsung Sharp Sans Bold";
-    color:blue;
     text-decoration: none;
     
 }
-.link:hover{
+.navlink:hover{
   color: rgb(238, 219, 255);
 }
 
@@ -81,6 +82,10 @@
 }
 
 @media (max-width: 750px) {
+  .navlink {
+    color: rgb(48, 46, 46);
+    font-weight: bolder;
+  }
   .samsung_nav{
       width: 50%
   }
