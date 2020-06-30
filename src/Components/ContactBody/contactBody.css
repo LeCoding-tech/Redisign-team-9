@@ -1,59 +1,78 @@
+.contactMaincontainer{
+    background: url("./GalaxyBackground.jpeg");
+}
 .heading{
     text-align: center;
-    color: black;
+    color: silver;
   }
   .myForm {
     display: flex;
     align-content: center;
+    margin-left: 25%;
+    margin-right: 30%;
     flex-flow: column wrap;
+    width: 50%;
     margin-top: 70px;
     font-size: 25px;
+    padding: 80px 0;
+    border: 2px solid white;
+    border-radius: 15px;
   }
   .label--center{
-    text-align: center;
+    color: white;
   } 
-  #name--position{
+  .name--position{
   width: 60%;
   padding: 12px 20px;
   margin: 10px 0px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid black;
-  background: none;
+  border-bottom: 2px solid white;
+  background: white;
+  border-radius: 15px;
   }
-  #email--position{
+  .email--position{
   width: 60%;
   padding: 12px 20px;
   margin: 8px 0px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid black;
-  background: none;
+  border-bottom: 2px solid white;
+  background: white;
+  border-radius: 15px;
   }
-  #comments--position{
+  .comments--position{
   padding: 12px 20px;
   margin: 8px 0px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid black;
-  background: none;
+  border-bottom: 2px solid white;
+  background: white;
+  border-radius: 15px;
   }
-  .container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-bottom: 30px;
+  ::placeholder {
+    color: black;
+  }
+  .button--div{
+      display: flex;
   }
   .button--item:hover {
-  background-color: silver;
+  background-color: black;
+  color: white;
   }
   .button--item{
     cursor: pointer;
     text-align: center;
     border-radius: 10px;
+    width: 50%;
     color: black;
     background-color: white;
     margin: 5px;
     padding: 15px;
     font-size: 16px;
   }
+  .map--container{
+    border: 5px solid black;
+    margin-top: 200px;
+}
+ 

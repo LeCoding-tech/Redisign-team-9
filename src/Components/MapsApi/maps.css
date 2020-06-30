@@ -1,6 +1,6 @@
 .map {
-    position: absolute;
-    top: 30rem;
+    position: relative;
+    top: 17rem;
     left: 1rem;
     color: rgb(72, 155, 155);
     z-index: 10;
@@ -9,8 +9,8 @@
 }
 
 .search {
-    position: absolute;
-    top: 32rem;
+    position: relative;
+    top: 15rem;
     left: 40%;
     transform: translate(-50%);
     width: 100%;
