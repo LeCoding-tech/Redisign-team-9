@@ -79,7 +79,7 @@ export default function Maps() {
 
   return (
     <div>
-      <h2 className="map">Samsung</h2>
+      
 
       <Search panTo={panTo} />
 

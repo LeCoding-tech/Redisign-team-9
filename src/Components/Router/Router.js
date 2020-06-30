@@ -5,6 +5,7 @@ import MobilePage from '../ProductsBody/ProductsPage/Mobile';
 import HomeAppliance from '../ProductsBody/ProductsPage/HomeAppliances';
 import TvAudio from '../ProductsBody/ProductsPage/TvAudio';
 import ContactPage from '../ContactPage/contactPage';
+import LoginPage from '../LoginPage/LoginPage';
 import SignupPage from '../SignupPage/signupPage';
 
 import {
@@ -21,7 +22,8 @@ class Routes extends React.Component {
         <Route exact path='/Products/HomeAppliancePage' component={HomeAppliance}/>
         <Route exact path='/Products/TvAudioPage' component={TvAudio}/>
         <Route exact path='/Contact' component={ContactPage} />
-        <Route exact path='/signup' component={SignupPage} />
+        <Route exact path='/Login' component={LoginPage} />
+        <Route exact path='/SignUp' component={SignupPage} />
       </div>
       </Router>
     );

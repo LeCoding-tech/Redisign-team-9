@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 import FBIcon from "../Footer/facebook.jpg";
 import TwitterIcon from "../Footer/instagram.png";
 import Instagramicon from "../Footer/twitter.png";
+import SamusngFooterIcon from "../Footer/samsung2.jpg";
 
 const Footer = () => {
     return (
         <div className="box bg-dark">
             
             <Link to="/" className="footer_box1">
-                <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
+                <img className="footer_samsung" alt="android" src={SamusngFooterIcon} />
             </Link>
             <div className="footer_box1">
                 <h3><Link to="/" className="h3Footer">Home</Link></h3>
