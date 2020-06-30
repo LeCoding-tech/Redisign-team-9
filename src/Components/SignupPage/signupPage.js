@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../Navbar/navbar'
+import Header from '../Navbar/Header'
 import SignupBody from '../SignupBody/signup'
 import Footer from '../Footer/footer'
 
 const SignupPage = () => {
     return (
 <>
-    <Navbar />
+    <Header />
     <SignupBody />
     <Footer />
     </>
