@@ -49,18 +49,22 @@
 }
 #navbar ul{
     width: 100%;
-}
-#navbar li{
-    padding-right: 3rem;
-    font-family: "Samsung Sharp Sans Bold";
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 5%;
+
+  
 }
 .link{
-  text-decoration: none;
-  color: black;
+    padding-right: 3rem;
+    font-family: "Samsung Sharp Sans Bold";
+    color:blue;
+    text-decoration: none;
+    
 }
 .link:hover{
   color: rgb(238, 219, 255);
-
 }
 
 .cart {
@@ -84,5 +88,10 @@
   #navbar li{
       padding-left: 2rem;
       padding-bottom: 2rem;
+      
   }
+  #navbar li:hover{
+    color: rgb(238, 219, 255);
+  }
+  
 }
