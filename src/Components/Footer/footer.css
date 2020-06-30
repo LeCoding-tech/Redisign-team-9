@@ -31,15 +31,10 @@ color:#fff
     justify-content: space-around;  /* delete */
 }
 /* Footer */
-<<<<<<< HEAD
 .h3Footer{
     font-size: 16px;
     font-weight: bold;
     color: white;
-=======
-h3{
-    font-size: 24px;
->>>>>>> ef9f05fd3f467c1afed3ac0a74da0a587b9d77d4
 }
 #main-footer {
     text-align: center;
