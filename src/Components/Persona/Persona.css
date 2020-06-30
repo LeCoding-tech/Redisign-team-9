@@ -31,6 +31,13 @@
   .checked {
     color: orange;
   }
+
+  @media (max-width: 1050px) {
+    .Personacontainer{
+      width: 40%;
+      height: 30vh;
+    }
+  }
   
   @media (max-width: 750px) {
     .PersonaBox{
