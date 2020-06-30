@@ -1,6 +1,6 @@
 .PersonaBox{
   display: flex;
-  margin: 0;
+  margin: 2% 0 0 0;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 2%;
