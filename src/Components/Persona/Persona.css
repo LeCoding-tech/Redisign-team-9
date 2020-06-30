@@ -6,14 +6,12 @@
   padding-bottom: 2%;
 }
 .Personacontainer {
-    
     border-radius: 50px;
     border: white 2px solid;
     padding: 16px;
     margin: 0;
     width:30%;
     color:white;
-    height: 22vh;
   }
   .imgPersona{
       height:100px;
@@ -35,13 +33,20 @@
   }
   
   @media (max-width: 750px) {
+    .PersonaBox{
+      margin: 2% 0 0 0;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 2%;
+      flex-direction: column;
+    }
     .Personacontainer{
       text-align: center;
+      width: 80%;
+      margin: 1% 0 1% 0;
     }
   
     .Personacontainer .imgPersona {
-      margin: auto;
-      float: none;
       display: block;
     }
   }
