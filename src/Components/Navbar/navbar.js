@@ -5,15 +5,7 @@ import styled from 'styled-components';
 
 const Ul = styled.ul`
 
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-right: 5%;
-
-    li{
-        padding: 0 10px;
-        font-size: 1.5rem;
-    }
+  
 
 @media (max-width: 750px){
     

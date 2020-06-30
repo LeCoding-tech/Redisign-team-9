@@ -49,13 +49,21 @@
 }
 #navbar ul{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 5%;
+
+  
 }
-#navbar li{
+.link{
     padding-right: 3rem;
     font-family: "Samsung Sharp Sans Bold";
-    color:black;
+    color:blue;
+    text-decoration: none;
+    
 }
-#navbar li:hover{
+.link:hover{
   color: rgb(238, 219, 255);
 }
 
