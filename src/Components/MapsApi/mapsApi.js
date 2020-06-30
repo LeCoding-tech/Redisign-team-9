@@ -29,6 +29,14 @@ const mapContainerStyle = {
   width: "100vw",
   height: "70vh",
 };
+
+const options = {
+  styles: mapStyles,
+  disableDefaultUI: true,
+  zoomControl: true,
+};
+
+
 const center = {
   lat: 40.852770,
   lng: -74.011100,
@@ -40,11 +48,6 @@ export default function Maps() {
     // Made it var to make sure react doesn't rerender weird
     libraries,
   });
-  const options = {
-    styles: mapStyles,
-    disableDefaultUI: true,
-    zoomControl: true,
-  };
 
   const [markers, setMarkers] = React.useState([]);
   const [selected, setSelected] = React.useState(null);
@@ -125,7 +128,7 @@ function Search({ panTo }) {
   } = usePlacesAutocomplete({
     requestOptions: {
       location: { lat: () => 40.852770, lng: () => -74.011100 },
-      radius: 200 * 1000,
+      radius: 100 * 1000,
     },
   });
 
@@ -142,7 +145,7 @@ function Search({ panTo }) {
           } catch(error){
             console.log("error!")
           }
-          console.log(address);
+
         }}
       >
         <ComboboxInput
