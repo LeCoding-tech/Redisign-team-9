@@ -44,8 +44,8 @@ const Navbar = ({ open }) => {
                     <Link to="/Products" className="link">
                         <li>Products</li>
                     </Link>
-                    <Link to="/signup" className="link">
-                        <li>Signup</li>
+                    <Link to="/Login" className="link">
+                        <li>Account</li>
                     </Link>
                     <Link to="/Contact" className="link">
                         <li>Contact</li>

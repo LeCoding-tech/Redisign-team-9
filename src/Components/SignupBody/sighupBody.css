@@ -1,21 +1,32 @@
-.container{
+.SignUpContainer{
+  background: url(../SignupBody/GalaxyBackground.jpeg);
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    padding-top: 10%;
     padding: 5px;
   }
   .signup_form{
+    color:white;
+    margin-top: 10%;
+    margin-bottom: 10%;
     display: flex;
     flex-flow: column wrap;
-    background-color: #f2f2f2;
     width: 50%;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     overflow-x: hidden;
     box-shadow: -4px 7px 6px 0px rgba(176, 164, 176, 1);
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
+  .signup_form input{
+    margin:10px;
+    width:80%
+  } 
   .firstName_label{
     padding: 5px;
+    
   }
   .firstName_input {
     width: 100%;
@@ -60,8 +71,15 @@
   }
   .submit_input{
     width: 100%;
+    height: 30px ;
+    border-radius: 15px;
     padding: 5px;
     cursor: pointer;
+    background-color: white;
+  }
+  .UserAgreement{
+    text-align: center;
+    width:90%
   }
   
   
