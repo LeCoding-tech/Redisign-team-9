@@ -1,17 +1,19 @@
 .PersonaBox{
   display: flex;
-  flex-direction: row;
   margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2%;
 }
 .Personacontainer {
     
     border-radius: 50px;
     border: white 2px solid;
     padding: 16px;
-    margin: 16px 0;
-    margin-left: 10%;
+    margin: 0;
     width:30%;
     color:white;
+    height: 22vh;
   }
   .imgPersona{
       height:100px;
