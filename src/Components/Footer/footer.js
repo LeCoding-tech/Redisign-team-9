@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="box bg-dark">
-            {/* <div className ="img_box">
-            </div> */}
-             <Link to="/" className="link2">
-            <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
+            
+            <Link to="/" className="footer_box1">
+                <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
             </Link>
             <div className="footer_box1">
 
