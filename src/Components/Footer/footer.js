@@ -1,6 +1,10 @@
 import React from 'react';
 import './footer.css';
 import { Link } from "react-router-dom";
+import FBIcon from "../Footer/facebook.jpg";
+import TwitterIcon from "../Footer/instagram.png";
+import Instagramicon from "../Footer/twitter.png";
+
 const Footer = () => {
     return (
         <div className="box bg-dark">
@@ -24,9 +28,9 @@ const Footer = () => {
 
             </div>
             <div className="social_media">
-                <a href="https://www.instagram.com/samsungmobile/?hl=en" target="_blank" rel="noopener"> <img className="instagram_footer" alt="IG" src="img/instagram.png" /> </a>
-                <a href="https://twitter.com/samsung?lang=en" target="_blank"rel="noopener"><img className="twitter_footer" src="img/twitter.png" /></a>
-                <a href="https://www.facebook.com/SamsungUS/" target="_blank"rel="noopener"> <img className="facebook_footer" alt="Facebook" src="img/facebook.jpg" /></a>
+                <a href="https://www.instagram.com/samsungmobile/?hl=en" target="_blank" rel="noopener"> <img className="instagram_footer" alt="IG" src={TwitterIcon} /> </a>
+                <a href="https://twitter.com/samsung?lang=en" target="_blank"rel="noopener"><img className="twitter_footer" src={Instagramicon} /></a>
+                <a href="https://www.facebook.com/SamsungUS/" target="_blank"rel="noopener"> <img className="facebook_footer" alt="Facebook" src={FBIcon} /></a>
                 <h3 className="h3Footer">Samsung &copy; 2020, All Rights Reserved </h3>
             </div>
         </div>
