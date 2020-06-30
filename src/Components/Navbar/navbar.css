@@ -53,14 +53,10 @@
 #navbar li{
     padding-right: 3rem;
     font-family: "Samsung Sharp Sans Bold";
+    color:black;
 }
-.link{
-  text-decoration: none;
-  color: black;
-}
-.link:hover{
+#navbar li:hover{
   color: rgb(238, 219, 255);
-
 }
 
 .cart {
@@ -84,5 +80,10 @@
   #navbar li{
       padding-left: 2rem;
       padding-bottom: 2rem;
+      
   }
+  #navbar li:hover{
+    color: rgb(238, 219, 255);
+  }
+  
 }

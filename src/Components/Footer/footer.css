@@ -29,6 +29,9 @@ color:#fff
     justify-content: space-around;  /* delete */
 }
 /* Footer */
+h3{
+    font-size: 24px;
+}
 #main-footer {
     text-align: center;
     background: #444;
@@ -67,7 +70,7 @@ margin-bottom: 20px;
     /* float:left; */
 }
 .footer_samsung{
-    width: 15%;  /* 20% */
+    width: 88%;  /* 20% */
     height: 10vh;  /* delete */
     /* float:left; */
     /* transform: translateY(70px); */
@@ -76,6 +79,13 @@ margin-bottom: 20px;
 width:20%; /* 28% */
 /* transform: translateY(0px); */
 /* float:left; */
+}
+.link{
+    color:white;
+    font-size:24px;
+}
+.link:hover{
+    color: rgb(238, 219, 255);
 }
 
 .instagram_footer{
@@ -91,15 +101,26 @@ width:10%;
 margin: 0px 10px;
 }
 
+
 @media (max-width: 750px) {
 h3{
-    font-size: 9px;
+    font-size: 12px;
+}
+.link{
+    color:white;
+    font-size:12px;
 }
 .footer_samsung{
     width: 24%;  
     height: 6vh; 
+    display:none;
 }
 .box{
     height:22vh;
 }
+.footer_box2{
+    width:20%;
+    margin-left:21px;
+}
+
 }
