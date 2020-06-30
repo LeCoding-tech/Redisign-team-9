@@ -72,7 +72,7 @@ const initialState = {
       position:'center',
       left:'10vh',
       height:'3vh',
-      width:'60vh',
+      width:'60%',
     }
 
   var mappedProducts = this.state.products.map(product => {

@@ -72,7 +72,7 @@ const initialState = {
       position:'center',
       left:'10vh',
       height:'3vh',
-      width:'40vh',
+      width:'60%',
 
     }
 
