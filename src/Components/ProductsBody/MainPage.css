@@ -1,8 +1,17 @@
+body{
+    margin:0px
+}
+.MainPage{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
 .Container1{
     background: url(./SamsungBackground3.gif);
     background-position: center;
     height: 550px;
-    width:100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .HomeAppContainer{
     float: right;
@@ -12,10 +21,9 @@
 float: left;
 padding-left: 300px;
 }
-.MobileContainer{
-    padding-left: 590px;
-    padding-right: 590px;
-} 
+.MobileContainer img{
+    margin: 0 42% ;
+}
 .Stars{
     width: 150px;
     height:150px;
@@ -23,4 +31,55 @@ padding-left: 300px;
 }
 .Stars:hover{
     border: solid 5px navy;
+}
+
+@media (max-width: 1050px) {
+.Container1{
+    background: url(./GalaxyBackground.jpeg); 
+}
+.HomeAppContainer{
+    float: none;
+    margin:0px 40%;
+}
+.TvAudioContainer{
+    float: none;
+    margin:0px 40%;
+    padding-left: 0px ;
+
+}
+.MobileContainer{
+    float: none;
+    margin:0px 40%;
+    padding-top: 30px;
+}
+.MobileContainer img{
+    margin: 0px ;
+}
+
+}
+
+@media (max-width: 750px) {
+    .Container1{
+        background: url(./GalaxyBackground.jpeg); 
+        display: flex;
+        flex-direction: column;
+    }
+    .HomeAppContainer{
+        float: none;
+        margin:0px 30%;
+    }
+    .TvAudioContainer{
+        float: none;
+        margin:0px 30%;
+        padding-left: 0px ;
+
+    }
+    .MobileContainer{
+        float: none;
+        margin:0px 30%;
+        padding-top: 30px;
+    }
+    .MobileContainer img{
+        margin: 0px ;
+    }
 }

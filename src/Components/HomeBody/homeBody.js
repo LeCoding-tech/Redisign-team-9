@@ -1,9 +1,11 @@
 import React from 'react';
 import './homeBody.css';
-import { Link } from 'react-scroll';
+import { Link } from "react-router-dom";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import HomeScroll from './HomeScroll'
+import Persona from '../Persona/persona';
 
 const photos = [
     {
@@ -84,25 +86,7 @@ const HomeBody = () => {
                      </Slider>
                 </div>
 
-                <div className="scrollButtons">
-                    <Link 
-                        activeClass="active"
-                        to="categories"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className="scrollButton">See Our Categories</Link>
-
-                        <Link 
-                        activeClass="active"
-                        to="categories"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className="scrollButton">Who's Our Personas</Link>
-                </div> 
+                    < HomeScroll />
 
                 {/********** 
                  Products Preview Sections
@@ -123,24 +107,27 @@ const HomeBody = () => {
                  Store Categories Slider
                  **********/}  
                 <div className="storeCategories" id="categories">
-                    <div className="categoriesLink">
+                    <Link to="/Products/MobileProducts" className="categoriesLink">
                         <img src={images[2].url} alt={images[2].name}/>
                         <h3>Phones</h3>
-                    </div>
-                    <div className="categoriesLink">
+                    </Link>
+
+                    <Link to="/Products/MobileProducts" className="categoriesLink">
                         <img src={images[3].url} alt={images[3].name}/>
                         <h3>Computing</h3>
-                    </div>
-                    <div className="categoriesLink">
+                    </Link>
+
+                    <Link to="/Products/TvAudioPage" className="categoriesLink">
                         <img src={images[4].url} alt={images[4].name}/>
                         <h3>TV/Audio</h3>
-                    </div>
-                    <div className="categoriesLink">
+                    </Link>
+
+                    <Link to="/Products/HomeAppliancePage" className="categoriesLink">
                         <img src={images[5].url} alt={images[5].name} className="appliances" />
                         <h3>Appliances</h3>
-                    </div>
+                    </Link>
                 </div>
-
+                 <Persona/>
             </div> 
     )
     

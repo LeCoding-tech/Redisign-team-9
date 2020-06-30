@@ -1,6 +1,7 @@
 import React from 'react';
 import './contactBody.css';
 import axios from 'axios';
+import Maps from '../MapsApi/mapsApi'
 
 class ContactBody extends React.Component {
     constructor(props) {
@@ -39,6 +40,8 @@ class ContactBody extends React.Component {
                         <input type="reset" class="button--item" value="comment" />
                     </div>
                 </form>
+                <Maps />
+                
             </>
         )
     }
