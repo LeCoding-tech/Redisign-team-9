@@ -4,34 +4,22 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="box bg-dark">
-            {/* <div className ="img_box">
-            </div> */}
-             <Link to="/" className="link2">
-            <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
+            
+            <Link to="/" className="footer_box1">
+                <img className="footer_samsung" alt="android" src="img/Samsung2.jpg" />
             </Link>
             <div className="footer_box1">
-
-            <Link to="/" className="link">
-
-                <h3 className="h3Footer">Home</h3>
-            </Link>
-            <Link to="/Products" className="link">
-                <h3 className="h3Footer">Products</h3>
-            </Link>
-            <Link to="/Contact" className="link">
-                <h3 className="h3Footer">Contact Us</h3>
-            </Link>
-
-           </div>
+                <h3><Link to="/" className="h3Footer">Home</Link></h3>
+                <h3><Link to="/Products"  className="h3Footer">Products</Link></h3>
+                <h3 ><Link to="/Contact"  className="h3Footer">Contact us</Link></h3>
+            </div>
 
 
 
 
             <div className="footer_box2">
-            <Link to="/signup" className="link">
-            <h3 className="h3Footer">Sign Up</h3> 
-            </Link>
-                
+            
+            <h3><Link to="/signup" className="h3Footer">Sign up</Link ></h3>
                 <h3 className="h3Footer">Personas</h3>
 
             </div>
