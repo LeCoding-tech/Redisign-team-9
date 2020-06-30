@@ -1,13 +1,15 @@
 import React from 'react'
-import Navbar from '../Navbar/navbar'
+import Header from '../Navbar/Header'
 import ContactBody from '../ContactBody/ContactBody'
+// import Maps from '../MapsApi/mapsApi'
 import Footer from '../Footer/footer'
 
 const ContactPage = () => {
     return (
 <>
-    <Navbar />
+    <Header />
     <ContactBody />
+    {/* <Maps /> */}
     <Footer />
 </>
     )

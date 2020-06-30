@@ -96,8 +96,10 @@ Store Categories Styles
     flex-direction: row;
     text-align: center;
     font-family: "Samsung Sharp Sans Bold";
+    text-decoration: none;
 }
 .categoriesLink h3 {
+    
     margin: 0;
     color: white;
 }

@@ -9,7 +9,7 @@ const Persona = () => {
             <div className="PersonaBox">
             <div className="Personacontainer">
                 <img className="imgPersona" src={David} alt="Picture of Customer" />
-                <p><span>David Garcia</span> Road 2 Hore Student</p>
+                <p><span>David Garcia</span> Road 2 Hire Student</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -19,7 +19,7 @@ const Persona = () => {
             </div>
             <div className="Personacontainer">
                 <img className="imgPersona" src={Alan} alt="Picture of Customer" />
-                <p><span>Alan Vang</span> CEO at Mighty Schools.</p>
+                <p><span>Alan Vang</span>Front end engineer</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
