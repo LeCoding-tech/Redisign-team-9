@@ -10,17 +10,17 @@ const HomeScroll = () => {
                         to="categories"
                         spy={true}
                         smooth={true}
-                        offset={-70}
-                        duration={500}
+                        offset={-400}
+                        duration={1000}
                         className="scrollButton">See Our Categories</Link>
 
                         <Link 
                         activeClass="active"
-                        to="categories"
+                        to="PersonaBox"
                         spy={true}
                         smooth={true}
-                        offset={-70}
-                        duration={500}
+                        offset={0}
+                        duration={1000}
                         className="scrollButton">Who's Our Personas</Link>
                 </div>
     )
