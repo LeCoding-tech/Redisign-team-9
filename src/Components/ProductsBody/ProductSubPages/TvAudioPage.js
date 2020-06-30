@@ -100,7 +100,7 @@ const initialState = {
    <div>
   
     <div className="ProductsContainer">
-    <h1 >TV & Audio</h1>
+    <h1 className="h1Products" >TV & Audio</h1>
       <input 
       type="text" 
       placeholder="Search within our Galaxy"
@@ -123,7 +123,7 @@ const initialState = {
         </select> 
         </div>
   
-     <div className= "container">
+     <div className= "MapContainer">
      {this.state.search != null ? items : mappedProducts}
     </div>   
     </div>

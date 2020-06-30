@@ -1,28 +1,30 @@
 .PersonaBox{
   display: flex;
   flex-direction: row;
-  margin: auto
+  margin: 0;
 }
-.container {
-    border: 2px solid #ccc;
-    border-radius: 5px;
+.Personacontainer {
+    
+    border-radius: 50px;
+    border: white 2px solid;
     padding: 16px;
     margin: 16px 0;
+    margin-left: 10%;
     width:30%;
     color:white;
   }
-  .img{
+  .imgPersona{
       height:100px;
       width:100px;
       padding-top: 10px;
   }
-  .container img {
+  .Personacontainer img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
   }
   
-  .container span {
+  .Personacontainer span {
     font-size: 20px;
     margin-right: 15px;
   }
@@ -31,11 +33,11 @@
   }
   
   @media (max-width: 750px) {
-    .container {
+    .Personacontainer{
       text-align: center;
     }
   
-    .container img {
+    .Personacontainer .imgPersona {
       margin: auto;
       float: none;
       display: block;

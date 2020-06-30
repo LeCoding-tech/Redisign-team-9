@@ -96,7 +96,7 @@ const initialState = {
    
     <div className="ProductsContainer">
       
-      <h1>Mobile Products</h1>
+      <h1 className="h1Products">Mobile Products</h1>
 
     
       <div>
@@ -127,7 +127,7 @@ const initialState = {
         </select>
         </div>
   
-     <div className= "container">
+     <div className= "MapContainer">
      {this.state.search != null ? items : mappedProducts}
      </div>
     </div>

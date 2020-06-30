@@ -72,7 +72,7 @@ const initialState = {
       position:'center',
       left:'10vh',
       height:'3vh',
-      width:'50vh',
+      width:'40vh',
 
     }
 
@@ -95,7 +95,7 @@ const initialState = {
 
       return (
     <div className="ProductsContainer">
-    <h1>Home Appliances</h1>
+    <h1 className="h1Products">Home Appliances</h1>
       <div>
 
      <input
@@ -128,7 +128,7 @@ const initialState = {
         
         </div>
 
-     <div className= "container">
+     <div className= "MapContainer">
      {this.state.search != null ? items : mappedProducts}
     </div>
     </div>
