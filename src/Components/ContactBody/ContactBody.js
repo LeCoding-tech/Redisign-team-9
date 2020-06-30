@@ -20,7 +20,7 @@ import Maps from '../MapsApi/mapsApi'
 
 //     submitHandler = event => {
 //         event.preventDefault()
-//         // axios.post(endpoint, this.state)
+//         axios.post(endpoint, this.state)
 //     }
 
 //     render() {
@@ -56,14 +56,32 @@ import Maps from '../MapsApi/mapsApi'
 
 // Intializing the state to default nothing
 const initialState = {
-    name: "",
-    email: "",
-    phonenumber: "",
-    message: "",
-  };
+  name: "",
+  email: "",
+  phonenumber: "",
+  message: "",
+};
   
+
+
   class ContactBody extends React.Component {
-    state = initialState;
+    constructor(props) {
+      super(props)
+      
+  }
+
+  submitHandler = event => {
+      event.preventDefault()
+      axios.post('http://localhost:3006/HomeApplicancesCard', this.state)
+        .then(response => {
+          console.log(response)
+        })
+        .catch(error => {
+          console.log(error)
+        })
+  }
+  state = initialState;
+    
   
     handleChange = event => {
       this.setState({
@@ -117,7 +135,7 @@ const initialState = {
               <h1 className="heading">Contact Us</h1>
   
   
-              <form className="myForm" onSubmit={this.handleSubmit}>
+              <form className="myForm" onSubmit={this.handleSubmit, this.submitHandle}>
                 <div className="formAlignment">
                   <p className="label--center">Name</p>
                   <input
