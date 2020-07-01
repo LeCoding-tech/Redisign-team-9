@@ -17,7 +17,6 @@ import {
   Combobox,
   ComboboxInput,
   ComboboxPopover,
-  ComboboxList,
   ComboboxOption,
 } from "@reach/combobox";
 import "@reach/combobox/styles.css";

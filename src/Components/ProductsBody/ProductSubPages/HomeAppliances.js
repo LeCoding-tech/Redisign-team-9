@@ -62,9 +62,6 @@ const initialState = {
   }
 
   render(){
-    const styleInfo = {
-      paddingLeft:'100px',
-    }
 
     const elementStyle ={
       border:'solid mediumpurple 4px',

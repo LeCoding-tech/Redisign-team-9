@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../ProductsBody/productsBody.css';
-import HomeAppliance from '../ProductsPage/HomeAppliances';
 
 // class HomeApplianceCard extends React.Component {
 //     constructor(props) {
@@ -48,7 +47,7 @@ import HomeAppliance from '../ProductsPage/HomeAppliances';
  const HomeApplianceCard = ({ name, description, price, image }) => {
     return (
         <div className="card">
-            <img src={image} alt="Image of product" className="MenuImg"/>
+            <img src={image} alt="product" className="MenuImg"/>
             <div className="container2">
                 <h3 className="ProductName">{name}</h3>
                 <div className="descriptionBox">

@@ -64,9 +64,6 @@ const initialState = {
  
   
   render(){
-    const styleInfo = {
-      paddingLeft:'100px',
-    }
 
     const elementStyle ={
       border:'solid white 2px',

@@ -8,7 +8,7 @@ const Persona = () => {
         <>
             <div className="PersonaBox">
                 <div className="Personacontainer">
-                    <img className="imgPersona" src={David} alt="Picture of Customer" />
+                    <img className="imgPersona" src={David} alt=" Customer" />
                     <p><span>David Garcia</span> Road 2 Hire Student</p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -18,7 +18,7 @@ const Persona = () => {
                     <p>Story: David enjoys technology and working with new appliances. David enjoys our website redesign and how easy it was to use it. David was able to find the products he needed and was able to contact our customer support if there were any issues he encountered. David remains a loyal customer until this day.</p>
                 </div>
                 <div className="Personacontainer">
-                    <img className="imgPersona" src={Alan} alt="Picture of Customer" />
+                    <img className="imgPersona" src={Alan} alt=" Customer" />
                     <p><span>Alan Vang</span>Front end engineer</p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>

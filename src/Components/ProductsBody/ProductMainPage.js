@@ -14,13 +14,13 @@ const ProductMainPage = () => {
       <Header/>
         <ul className="Container1">
           <div className="MobileContainer">
-          <Link to="/Products/MobileProducts"><img className="Stars"src={MobileStar}/></Link>
+          <Link to="/Products/MobileProducts"><img className="Stars" alt="star1" src={MobileStar}/></Link>
           </div>
           <div className="HomeAppContainer">
-          <Link to="/Products/HomeAppliancePage"><img className="Stars" src={HomeAppStar}/></Link>
+          <Link to="/Products/HomeAppliancePage"><img className="Stars" alt="star2" src={HomeAppStar}/></Link>
           </div>
           <div className="TvAudioContainer">
-          <Link to="/Products/TvAudioPage"><img className="Stars" src={TvAudioStar}/></Link>
+          <Link to="/Products/TvAudioPage"><img className="Stars" alt="star3" src={TvAudioStar}/></Link>
           </div>
         </ul>
         <Footer/>
