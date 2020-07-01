@@ -2,6 +2,7 @@ const router = require('express').Router();
 const mysql = require('mysql')
 require('dotenv').config()
 
+// Database info
 let connection = mysql.createConnection({
     host: 'localhost',
     port:3306,
@@ -18,6 +19,7 @@ let connection = mysql.createConnection({
 //     console.log("Leo");
 //   });
 
+// Testing connect to query
 connection.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
@@ -29,6 +31,7 @@ connection.connect(function(err) {
 
   let sql = 'SELECT HomeAppliancesPrices.homeAppliancePrice, HomeAppliances.URL FROM HomeAppliances INNER JOIN HomeAppliancesPrices ON HomeAppliances.homeAppliance_id = HomeAppliancesPrices.homeAppliance_id INNER JOIN HomeAppliancesDescriptions ON HomeAppliances.homeAppliance_id = HomeAppliancesDescriptions.homeAppliance_id;'
 
+  // Getting info from MySQL database 
 router.get('/HomeApplicancesCard', (req,res) => {
     connection.query('SELECT HomeAppliancesPrices.homeAppliancePrice, HomeAppliances.URL FROM HomeAppliances INNER JOIN HomeAppliancesPrices ON HomeAppliances.homeAppliance_id = HomeAppliancesPrices.homeAppliance_id INNER JOIN HomeAppliancesDescriptions ON HomeAppliances.homeAppliance_id = HomeAppliancesDescriptions.homeAppliance_id;'
     , function (err, data){
