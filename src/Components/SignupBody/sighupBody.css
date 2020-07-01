@@ -1,3 +1,6 @@
+/********** 
+Signup Form Styles
+**********/
 .SignUpContainer{
   background: url(../SignupBody/GalaxyBackground.jpeg);
   background-position: center;
@@ -95,6 +98,9 @@
     color: rgb(221, 219, 219);
   }
 
+  /********** 
+  Signup Tablet View Styles
+  **********/
   @media (max-width: 1050px) {
     .signup_form {
       width: 90%;
@@ -104,6 +110,9 @@
     }
   }
   
+  /********** 
+  Signup Phone View Styles
+  **********/
   @media (max-width: 750px) {
     .signup_form {
       width: 90%;

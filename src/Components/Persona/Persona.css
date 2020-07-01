@@ -1,3 +1,6 @@
+/********** 
+Persona Section Styles
+**********/
 .PersonaBox{
   display: flex;
   margin: 2% 0 0 0;
@@ -32,6 +35,9 @@
     color: orange;
   }
 
+  /********** 
+  Tablet Persona View Styles 
+  **********/
   @media (max-width: 1050px) {
     .Personacontainer{
       width: 40%;
@@ -39,6 +45,9 @@
     }
   }
   
+  /********** 
+  Phone Persona View Styles
+  **********/
   @media (max-width: 750px) {
     .PersonaBox{
       margin: 2% 0 0 0;

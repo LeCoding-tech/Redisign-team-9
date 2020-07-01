@@ -1,35 +1,22 @@
-/* .bg-light {
-    background: #F4F4F4;
-    color:#333
-}
-.bg-primary {
-    background: #F7C08A;
-    color: #333;
-}
-.bg-dark {
-background: #333;
-color:#fff
-} 
-.clr {
-    clear: both;
-} */
 /*Padding*/
 .py-1{padding:10px 0;}
 .py-2{padding:20px 0;}
 .py-3{padding:30px 0;}
+
 /* Features */
 .box {
     font-size: 14px;
     color: white;
-    width: 100%; /* 95.0222111122% */
-    padding: 2% 0 2% 0; /* 35px */
+    width: 100%; 
+    padding: 2% 0 2% 0;
     text-align: center;
     height: 22vh;
-    display: flex;  /* inline-block */
+    display: flex;  
     background:rgb(99, 61, 168); ;
-    align-items: center;  /* delete */
-    justify-content: space-around;  /* delete */
+    align-items: center;  
+    justify-content: space-around;  
 }
+
 /* Footer */
 .h3Footer{
     font-size: 16px;
@@ -48,23 +35,15 @@ h3{
     color: #fff;
     padding: 40px;
 }
-
-
-
 .footer_box1{
-    width:20%; /* 21% */
-    /* float:left; */
+    width:20%; 
 }
 .footer_samsung{
-    width: 88%;  /* 20% */
-    height: 10vh;  /* delete */
-    /* float:left; */
-    /* transform: translateY(70px); */
+    width: 88%; 
+    height: 10vh;  
 }
 .footer_box2{
-width:20%; /* 28% */
-/* transform: translateY(0px); */
-/* float:left; */
+width:20%; 
 }
 .link{
     color:white;
@@ -87,7 +66,9 @@ width:10%;
 margin: 0px 10px;
 }
 
-
+/********** 
+Footer Phone View Styles
+**********/
 @media (max-width: 750px) {
 h3{
     font-size: 12px;

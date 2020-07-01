@@ -157,6 +157,7 @@ margin-top: 40px;
 }
 .card{
   width: 47%;
+  height: 61vh;
 }
 .MenuImg{
   width: 125px;
@@ -165,7 +166,9 @@ margin-top: 40px;
 }
 .ProductName{
   font-size: 14px;
-  padding-bottom: 0;
+  padding: 0;
+  color: black;
+  text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
 }
 .Description, .price{
 text-align: center;

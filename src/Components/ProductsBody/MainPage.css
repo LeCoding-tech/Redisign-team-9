@@ -69,6 +69,7 @@ padding-left: 300px;
     .HomeAppContainer{
         float: none;
         margin:0px 30%;
+        padding-right: 0;
     }
     .TvAudioContainer{
         float: none;

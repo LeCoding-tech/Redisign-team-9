@@ -1,3 +1,6 @@
+/********** 
+Login Form Styles
+**********/
 .LoginContainer{
     background: url(../SignupBody/GalaxyBackground.jpeg);
     background-position: center;
@@ -62,6 +65,9 @@
       color: rgb(221, 219, 219);
     }
 
+    /********** 
+    Login Tablet View Styles
+    **********/
     @media (max-width: 1050px) {
       .LoginContainer {
         padding: 12% 5px 12% 5px;
@@ -74,6 +80,9 @@
       }
     }
 
+    /********** 
+    Login Phone View Styles
+    **********/
     @media (max-width: 750px) {
       .Login_form {
         width: 90%;
