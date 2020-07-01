@@ -85,7 +85,7 @@ const initialState = {
                     onChange={this.handleChange}
                   />
   
-                  <div style={{ fontSize: 14,color: "red", fontSize: "bold" }}>
+                  <div style={{ color: "red", fontSize: "bold" }}>
                     {this.state.nameError}
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const initialState = {
                     onChange={this.handleChange}
                   />
   
-                  <div style={{ fontSize: 14, color: "red", fontSize: "bold" }}>
+                  <div style={{ color: "red", fontSize: "bold" }}>
                     {this.state.emailError}
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const initialState = {
                     value={this.state.phonenumber}
                     onChange={this.handleChange}
                   />
-                  <div style={{ fontSize: 14, color: "red", fontSize: "bold" }}>
+                  <div style={{ color: "red", fontSize: "bold" }}>
                     {this.state.phonenumberError}
                   </div>
   
@@ -128,7 +128,7 @@ const initialState = {
                       value={this.state.message}
                       onChange={this.handleChange}
                     />
-                    <div style={{ fontSize: 14, color: "red", fontSize: "bold" }}>
+                    <div style={{ color: "red", fontSize: "bold" }}>
                       {this.state.messageError}
                     </div>
                   </div>
