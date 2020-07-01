@@ -43,7 +43,7 @@ const center = {
 
 export default function Maps() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAn9cgmJYhLQcf6D9AShZivtRHQSkvxMj0",
+    // googleMapsApiKey: "AIzaSyAn9cgmJYhLQcf6D9AShZivtRHQSkvxMj0",
     // Made it var to make sure react doesn't rerender weird
     libraries,
   });
