@@ -3,20 +3,6 @@ import { Link } from 'react-router-dom';
 import './sighupBody.css';
 
 class SignupBody extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { value: '' };
-
-        this.handleChange = this.handleChange.bind(this);
-        this.handleChange = this.handleSubmit.bind(this);
-    }
-    handleChange(event) {
-        this.setState({ value: event.target.value });
-    }
-    handleSubmit(event) {
-        alert('Your Form Was Submitted!');
-        event.preventDefault();
-    }
     render() {
         return (
             <div className="SignUpContainer">
