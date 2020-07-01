@@ -2,11 +2,16 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 require('dotenv').config()
-let router = require('./Routes/apiProducts')
+let router = require('./apiProducts')
 
 app.use(express.json());
 app.use(cors())
 
+app.get("/HomeApplicancesCard", (req, res) => {
+    if (!data) res.status(404).send(`Error`);
+    // Displays data of employees
+    res.send(data);
+  });
 
 const port = process.env.SERVER || 3006;
 app.listen(port, () => {
