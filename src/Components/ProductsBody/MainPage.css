@@ -36,6 +36,8 @@ padding-left: 300px;
 @media (max-width: 1050px) {
 .Container1{
     background: url(./GalaxyBackground.jpeg); 
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 .HomeAppContainer{
     float: none;

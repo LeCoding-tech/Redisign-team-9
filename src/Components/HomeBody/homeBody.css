@@ -148,7 +148,8 @@ Resolution adjustment styles for phone
     }
 
     .scrollButton{
-        margin: 5% 2% 0 2%;    
+        margin: 5% 2% 0 2%;  
+        padding: 2%;  
     }
 
     .eventsSection h2, .dealsSection h2 {

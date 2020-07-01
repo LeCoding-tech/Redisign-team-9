@@ -57,10 +57,10 @@
 }
 .navlink{
     color: white;
-    font-size: 24px;;
-    padding-right: 3rem;
+    font-size: 24px;
     font-family: "Samsung Sharp Sans Bold";
     text-decoration: none;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
     
 }
 .navlink:hover{
