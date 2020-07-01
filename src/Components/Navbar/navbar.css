@@ -58,9 +58,9 @@
 .navlink{
     color: white;
     font-size: 24px;
+    padding-right: 3rem;
     font-family: "Samsung Sharp Sans Bold";
     text-decoration: none;
-    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
     
 }
 .navlink:hover{
@@ -85,6 +85,8 @@
   .navlink {
     color: rgb(48, 46, 46);
     font-weight: bolder;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+    padding-right: 0;
   }
   .samsung_nav{
       width: 50%
