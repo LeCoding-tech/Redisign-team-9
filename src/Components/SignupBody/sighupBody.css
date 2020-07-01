@@ -91,6 +91,15 @@
   .loginLink:visited {
     color: rgb(221, 219, 219);
   }
+
+  @media (max-width: 1050px) {
+    .signup_form {
+      width: 90%;
+    }
+    .submit_input {
+      width: 80%;
+    }
+  }
   
   @media (max-width: 750px) {
     .signup_form {

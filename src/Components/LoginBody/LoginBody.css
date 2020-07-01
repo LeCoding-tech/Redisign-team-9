@@ -58,6 +58,19 @@
       color: rgb(221, 219, 219);
     }
 
+    @media (max-width: 1050px) {
+      .LoginContainer {
+        padding: 12% 5px 12% 5px;
+      }
+      .Login_form {
+        width: 90%;
+      }
+      .loginSubmit_input {
+        width: 80%;
+        margin-top: 2%;
+      }
+    }
+
     @media (max-width: 750px) {
       .Login_form {
         width: 90%;
