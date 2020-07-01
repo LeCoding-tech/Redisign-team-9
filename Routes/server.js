@@ -8,9 +8,9 @@ app.use(express.json());
 app.use(cors())
 
 app.get("/HomeApplicancesCard", (req, res) => {
-    if (!data) res.status(404).send(`Error`);
-    // Displays data of employees
-    res.send(data);
+    if (!router) res.status(404).send(`Error`);
+
+    res.send(router);
   });
 
 const port = process.env.SERVER || 3006;
