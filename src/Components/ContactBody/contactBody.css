@@ -9,6 +9,7 @@
     font-size: 40px;
   }
   .myForm {
+    text-align: center;
     display: flex;
     align-content: center;
     margin-left: 25%;
@@ -81,3 +82,12 @@
     margin-top: 200px;
 }
  
+@media (max-width: 750px) {
+  .myForm {
+    text-align: left;
+    border: none;
+  }
+  .myForm p {
+    margin: 0;
+  }
+}
