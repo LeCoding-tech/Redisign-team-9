@@ -22,17 +22,18 @@ When you're done viewing the site or need to install more modules to make edits 
 
 ## Built With
 
-- React App
-- MYSQL
+- [React](https://github.com/facebook/react) - Framework used
+- [Netlify](https://www.netlify.com/) - Deployment site used
+- [MySQL](https://github.com/mysqljs/mysql) - Database used
 
 ## Authors
 
-- Leeangelo Riley
-- Nicolas Conaway
-- Wilson Peres
-- Naven Kennedy
-- Austin Cordova
+- [Leeangelo Riley](https://github.com/LeCoding-tech)
+- [Nicolas Conaway](https://github.com/NicolasConaway)
+- [Wilson Peres](https://github.com/WilsonPeres)
+- [Naven Kennedy](https://github.com/Bossman1017)
+- [Austin Cordova](https://github.com/AustinCordova)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LeCoding-tech/My-Portfolio/blob/master/LICENSE) file for details.
