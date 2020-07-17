@@ -36,4 +36,4 @@ When you're done viewing the site or need to install more modules to make edits 
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LeCoding-tech/My-Portfolio/blob/master/LICENSE) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LeCoding-tech/Redesign-team-9/blob/master/LICENSE) file for details.
