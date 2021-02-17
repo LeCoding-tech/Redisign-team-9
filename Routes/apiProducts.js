@@ -9,7 +9,7 @@ let connection = mysql.createConnection({
 
     user:'root',
 
-    password: 'Lee@nge1o',
+    password: '',
     database: 'samsungRedesign_db'
 
 })
